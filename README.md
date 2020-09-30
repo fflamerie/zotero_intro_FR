@@ -6,6 +6,8 @@ Le matériel est composé des éléments suivants.
 
 :watch: Il est prévu pour une formation d'une durée de 2h ; pour une durée de 3h une activité supplémentaire (créer un groupe, synchroniser, etc.) peut être ajoutée.
 
+:scissors: Les exemples sont adaptés au domaine de la santé publique, ils peuvent être aisément substitués par d'autres.
+
 
 * Document de cours - [au format .md recommandé pour la consultation en ligne](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md) et [au format .pdf](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.fr)
 * Être ou ne pas être dans Zotero : quel choix pour vos PDF et autres fichiers joints ? - [schéma au format .odg](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.odg) et [schéma au format .pdf](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.pdf)
