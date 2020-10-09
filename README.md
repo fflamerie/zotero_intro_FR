@@ -10,6 +10,7 @@ Le matériel est composé des éléments suivants.
 
 :wine_glass: Une version en anglais adaptée au domaine de l'**oenologie** est disponible : [Introduction to Zotero, soon your personal research assistant](https://github.com/fflamerie/zotero_intro_to).
 
+:notebook: :black_nib: Document en lien : **[Mémo : rédaction bibliographique avec la norme Vancouver et le logiciel Zotero](https://github.com/fflamerie/bibliolog/blob/master/docs/vancouver_zotero_memo.pdf)**
 
 * Document de cours - [au format .md recommandé pour la consultation en ligne](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md) et [au format .pdf](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.pdf)
 * Être ou ne pas être dans Zotero : quel choix pour vos PDF et autres fichiers joints ? - [schéma au format .odg](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.odg) et [schéma au format .pdf](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.pdf)
