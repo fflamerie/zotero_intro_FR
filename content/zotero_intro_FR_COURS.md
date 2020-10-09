@@ -464,7 +464,7 @@ Produisez un document identique à ce texte.
 **💡 Conseils**
 
 * N'oubliez pas de taper le titre "Bibliographie", car il ne sera pas généré par Zotero.
-* Vous voulez en savoir plus sur le style Vancouver? Consultez notre [Mémo : rédaction bibliographique avec la norme Vancouver et le logiciel Zotero](https://github.com/fflamerie/bibliolog/blob/master/docs/vancouver_zotero_memo.pd)
+* Vous voulez en savoir plus sur le style Vancouver? Consultez notre [Mémo : rédaction bibliographique avec la norme Vancouver et le logiciel Zotero](https://github.com/fflamerie/bibliolog/blob/master/docs/vancouver_zotero_memo.pdf)
 
 **Questions bonus**
 
