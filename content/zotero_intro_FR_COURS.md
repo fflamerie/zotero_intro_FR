@@ -238,7 +238,7 @@ Le connecteur Zotero est l'extension que vous avez installée dans votre navigat
 
 Ouvrez Zotero et cliquez sur le bouton "Save to Zotero" de votre navigateur pour enregistrer la référence bibliographique en tant que document dans votre bibliothèque Zotero. Zotero essaiera également d'enregistrer en même temps le fichier PDF en texte intégral en tant que pièce jointe.
 
-Exemple : [un article de la revue "Sciences sociales et santé""](https://doi.org/10.1684/sss.2020.0163)
+Exemple : [un article de la revue "Sciences sociales et santé"](https://doi.org/10.3917/sss.362.0005)
 
 **💡 Conseil : privilégiez la bonne source d'information et ne procrastinez pas**
 
