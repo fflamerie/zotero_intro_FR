@@ -41,7 +41,7 @@ Zotero dispose de plusieurs outils pour organiser une bibliothèque :
 * les documents connexes -> pour établir des liens entre les documents,
 * les notes -> indexées par le moteur de recherche de Zotero, saisies dans un éditeur html permettant une mise en forme.
 
-![zotero_organisation_overview](zotero_intro_FR/content/img/zotero_organisation_overview_en.png)
+![zotero_organisation_overview](img/zotero_organisation_overview_en.png)
 
 Pourquoi privilégier les marqueurs plutôt que les collections?
 
