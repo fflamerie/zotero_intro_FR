@@ -41,4 +41,6 @@ Matériel de la formation "Introduction à Zotero, votre assistant de recherche 
 
 :wine_glass: Une version en anglais adaptée au domaine de l'**oenologie** est disponible : [Introduction to Zotero, soon your personal research assistant](https://github.com/fflamerie/zotero_intro_to).
 
+</br>
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Ce support est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution - Partage dans les Mêmes Conditions 3.0 France</a>.
