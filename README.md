@@ -33,13 +33,12 @@ Matériel de la formation "Introduction à Zotero, votre assistant de recherche 
 Être ou ne pas être dans Zotero : quel choix pour vos PDF et autres fichiers joints ? - [schéma au format .odg](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.odg) et [schéma au format .pdf](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.pdf)
 
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Ce support est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution - Partage dans les Mêmes Conditions 3.0 France</a>.
-
-
-## Notes pour la réutilisation des contenus
+## Notes pour réutiliser ou adapter ce cours
 
 :watch: Ce cours est prévu pour une formation d'une durée de 2h ; pour une durée de 3h une activité supplémentaire (créer un groupe, synchroniser, etc.) peut être ajoutée.
 
 :scissors: Les exemples sont adaptés au domaine de la **santé publique**, ils peuvent être aisément substitués par d'autres.
 
 :wine_glass: Une version en anglais adaptée au domaine de l'**oenologie** est disponible : [Introduction to Zotero, soon your personal research assistant](https://github.com/fflamerie/zotero_intro_to).
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Ce support est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution - Partage dans les Mêmes Conditions 3.0 France</a>.
