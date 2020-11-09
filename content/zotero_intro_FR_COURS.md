@@ -13,26 +13,19 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 ## Objectifs
 
 * Créer et organiser une bibliothèque de références bibliographiques et de PDF avec Zotero
-* Rédiger un document en générant automatiquement les citations et la bibliographie en fonction des standards propres à sa discipline
+* Rédiger un document en générant automatiquement les citations et la bibliographie en fonction des normes Vancouver et/ou APA
 * Comprendre l'environnement de Zotero pour en optimiser et en augmenter l'usage
 
 
 ## Sommaire
 
-<!-- MDTOC maxdepth:3 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+<!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Objectifs](#objectifs)   
 - [Sommaire](#sommaire)   
 - [1. Introduction](#1-introduction)   
    - [Peut-être procédez-vous de la façon suivante?](#peut-être-procédez-vous-de-la-façon-suivante)   
-      - [Etape 01, collecter la biblio](#etape-01-collecter-la-biblio)   
-      - [Etape 02, organiser la biblio](#etape-02-organiser-la-biblio)   
-      - [Etape 03, citer ses sources](#etape-03-citer-ses-sources)   
-      - [Et peut-être rencontrez-vous aussi les difficultés suivantes?](#et-peut-être-rencontrez-vous-aussi-les-difficultés-suivantes)   
    - [Zotero?](#zotero)   
-      - [Vue d'ensemble](#vue-densemble)   
-      - [Zotero et d'autres logiciels de gestion bibliographique](#zotero-et-dautres-logiciels-de-gestion-bibliographique)   
-      - [Informations complémentaires concernant Zotero](#informations-complémentaires-concernant-zotero)   
 - [2. Installer et configurer Zotero](#2-installer-et-configurer-zotero)   
    - [Comment vérifier si l'installation a fonctionné ?](#comment-vérifier-si-linstallation-a-fonctionné)   
    - [Conseils pour configurer Zotero](#conseils-pour-configurer-zotero)   
@@ -40,32 +33,18 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
    - [Enregistrer des documents dans votre navigateur](#enregistrer-des-documents-dans-votre-navigateur)   
    - [Exercice 3-1, enregistrer des documents depuis les sites en ligne avec le connecteur Zotero](#exercice-3-1-enregistrer-des-documents-depuis-les-sites-en-ligne-avec-le-connecteur-zotero)   
    - [Toutes les méthodes d'ajout](#toutes-les-méthodes-dajout)   
-      - [1, le connecteur Zotero](#1-le-connecteur-zotero)   
-      - [2, importer un fichier ou importer depuis le presse-papier](#2-importer-un-fichier-ou-importer-depuis-le-presse-papier)   
-      - [4, avec un identifiant unique](#4-avec-un-identifiant-unique)   
-      - [5, depuis des PDF](#5-depuis-des-pdf)   
-      - [3, manuellement](#3-manuellement)   
    - [Exercice 3-2, essayer une autre méthode d'ajout](#exercice-3-2-essayer-une-autre-méthode-dajout)   
    - [Vérifier et mettre à jour les documents que vous avez enregistrés](#vérifier-et-mettre-à-jour-les-documents-que-vous-avez-enregistrés)   
 - [4. Constituer sa bibliothèque Zotero étape 2, organiser le contenu](#4-constituer-sa-bibliothèque-zotero-étape-2-organiser-le-contenu)   
    - [Outils pour organiser votre bibliothèque](#outils-pour-organiser-votre-bibliothèque)   
    - [Exercice 4-1, démarrer avec l'organisation](#exercice-4-1-démarrer-avec-lorganisation)   
-      - [Indexer avec les marqueurs](#indexer-avec-les-marqueurs)   
-      - [Chercher](#chercher)   
-      - [Prendre des notes](#prendre-des-notes)   
    - [Aller plus loin](#aller-plus-loin)   
-      - [S'inspirer de ce que font les autres](#sinspirer-de-ce-que-font-les-autres)   
-      - [Documentation complète](#documentation-complète)   
 - [5. Citer avec Zotero](#5-citer-avec-zotero)   
    - [Les styles bibliographiques](#les-styles-bibliographiques)   
-      - [Styles bibliographiques à utiliser](#styles-bibliographiques-à-utiliser)   
    - [Exercice 5-1, citer dans un fichier de traitement de texte](#exercice-5-1-citer-dans-un-fichier-de-traitement-de-texte)   
    - [Autres fonctionnalités de citation](#autres-fonctionnalités-de-citation)   
 - [6. Questions, étapes suivantes et conclusions](#6-questions-étapes-suivantes-et-conclusions)   
    - [Etapes suivantes](#etapes-suivantes)   
-      - [Sauvegarde et synchronisation](#sauvegarde-et-synchronisation)   
-      - [Collaborer avec les groupes Zotero](#collaborer-avec-les-groupes-zotero)   
-      - [Modules complémentaires](#modules-complémentaires)   
    - [Assistance](#assistance)   
 
 <!-- /MDTOC -->
@@ -173,9 +152,13 @@ Toutes les raisons ci-dessus expliquent pourquoi nous avons choisi de nous conce
 
 ## 2. Installer et configurer Zotero
 
-![zotero][zotero] [Documentation Zotero : Installation](https://www.zotero.org/support/fr/installation)
-
 ![zotero][zotero] [Site web Zotero : Télécharger Zotero](https://www.zotero.org/download/)
+
+Vous devez installer à la fois l'application Zotero **ET** le connecteur Zotero adapté à votre navigateur (Chrome, Firefox ou Edge).
+
+![zotero_install](img/zotero_instal.png)
+
+![zotero][zotero] [Documentation Zotero : Installation](https://www.zotero.org/support/fr/installation)
 
 ### Comment vérifier si l'installation a fonctionné ?
 
@@ -213,7 +196,11 @@ Dans le champ _OpenURL_ > _Résolveur des liens_, copiez et collez l'URL suivant
 
 https://babordplus.hosted.exlibrisgroup.com/primo-explore/openurl?&Force_direct=false&vid=33PUDB_UB_VU1&institution=33PUDB_UB&
 
-Nous utiliserons cette fonctionnalité plus tard au cours de la formation.
+Cela vous permettra de générer la page de Babord+ d'un document à partir de votre bibliothèque Zotero. Cette page Babord+ affiche toutes les options d'accès de l'université de Bordeaux, et vous pourrez ainsi trouver des PDF que Zotero ne sera pas parvenu à télécharger automatiquement.
+
+Il vous suffira pour cela de cliquer sur _Recherche dans la bibliothèque_, accessible depuis **le menu _Localiser_**, c'est-à-dire la flèche verte en haut du volet de droite dans votre bibliothèque Zotero.
+
+* En cliquant sur le menu _Localiser_ > _Rechercher dans la bibliothèque_, vous afficherez le document dans Babord+ avec
 
 ![zotero][zotero] [Documentation Zotero : Menu Localiser](https://www.zotero.org/support/fr/locate)
 
@@ -236,11 +223,11 @@ pour ajouter des documents dans votre bibliothèque.
 
 Le connecteur Zotero est l'extension que vous avez installée dans votre navigateur. Cette extension détecte les références bibliographiques disponibles sur les pages que vous visitez.
 
-Ouvrez Zotero et cliquez sur le bouton "Save to Zotero" de votre navigateur pour enregistrer la référence bibliographique en tant que document dans votre bibliothèque Zotero. Zotero essaiera également d'enregistrer en même temps le fichier PDF en texte intégral en tant que pièce jointe.
+Ouvrez Zotero et cliquez sur le bouton "_Save to Zotero_" de votre navigateur pour enregistrer la référence bibliographique en tant que document dans votre bibliothèque Zotero. Zotero essaiera également d'enregistrer en même temps le fichier PDF en texte intégral en tant que pièce jointe.
 
 Exemple : [un article de la revue "Sciences sociales et santé"](https://doi.org/10.3917/sss.362.0005)
 
-**💡 Conseil : privilégiez la bonne source d'information et ne procrastinez pas**
+💡**Conseil : privilégiez la bonne source d'information et ne procrastinez pas**
 
 Le mieux est de collecter des références bibliographiques **pendant que vous êtes en train de chercher des informations**. Nous entendons par là que vous serez plus efficace si vous collectez directement les métadonnées pendant que vous êtes sur le site web / la base de données / le catalogue de la bibliothèque où vous trouvez vos documents. De cette façon, vous n'aurez pas besoin de trouver la référence une seconde fois par la suite.
 
@@ -275,7 +262,7 @@ C'est la méthode que nous venons d'utiliser.
 
 Certaines bases de données ou catalogues peuvent vous fournir un fichier téléchargeable contenant une ou plusieurs références. Les formats les plus courants pour ce type de fichiers sont RIS (.ris) ou BibTeX (.bib). Cela est surtout utile pour les exportations à grande échelle ou lors d'un changement de logiciel de gestion bibliographique.
 
-**💡 Conseil : sur certains sites, cet export est mieux configuré que l'enregistrement par le connecteur Zotero. C'est le cas sur CAIRN pour les chapitres de livre : lorsque vous voulez enregistrer la référence d'un chapitre, cliquez sur "Citer ou exporter" > "Exporter la citation" > "Zotero (.RIS)"**
+💡 **Conseil : sur certains sites, cet export est mieux configuré que l'enregistrement par le connecteur Zotero. C'est le cas sur CAIRN pour les chapitres de livre : lorsque vous voulez enregistrer la référence d'un chapitre, cliquez sur "Citer ou exporter" > "Exporter la citation" > "Zotero (.RIS)"**
 
 #### 4, avec un identifiant unique
 
@@ -293,7 +280,7 @@ Exemple : l'ISBN d'un livre ou d'un rapport, le DOI d'un article scientifique.
 
 Si vous avez déjà des PDF sur votre ordinateur, il peut être possible d'en récupérer les métadonnées a posteriori.
 
-**⚠️ Cela n'est pas la méthode par défaut recommandée**.  Cette fonctionnalité est utile pour traiter un lot de PDF que vous avez en stock, mais cela ne doit pas être votre méthode habituelle pour ajouter du contenu à votre bibliothèque Zotero.
+⚠️ **Cela n'est pas la méthode par défaut recommandée**.  Cette fonctionnalité est utile pour traiter un lot de PDF que vous avez en stock, mais cela ne doit pas être votre méthode habituelle pour ajouter du contenu à votre bibliothèque Zotero.
 
 Pour ajouter un PDF à Zotero, il suffit de le faire glisser depuis un dossier et de le déposer dans votre bibliothèque. Zotero recherche automatiquement les métadonnées et crée automatiquement un document attaché au fichier PDF lorsque cela est possible. Cependant, il se peut que le PDF que vous avez ajouté à votre bibliothèque Zotero ne soit pas lisible par la machine ou ne soit pas reconnu par Zotero. Dans ce cas, aucune métadonnée ne sera récupérée. Vous devrez ajouter des métadonnées à l'aide de DOI ou manuellement, en utilisant la fonction _Créer un document parent_.
 
@@ -317,8 +304,8 @@ Ajouter des documents en utilisant une autre méthode que le connecteur Zotero.
 
 * **Baguette magique** : utilisez ce DOI : 10.5281/zenodo.4056091
 * **Saisie manuelle** : un poster, une présentation ou tout autre document que vous devez citer et que vous ne trouvez pas en ligne
-* **A partir d'un PDF** : utilisez [ce fichier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf)
-* **Import de fichier** : utilisez [ce fichier RIS](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/import_file.ris)
+* **A partir d'un PDF** : utilisez [ce fichier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf) = le fichier au format PDF dans le dossier `import_ex`
+* **Import de fichier** : utilisez [ce fichier RIS](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/import_file.ris) = le fichier au format RIS dans le dossier `import_ex`
 
 
 ### Vérifier et mettre à jour les documents que vous avez enregistrés
@@ -360,7 +347,7 @@ Nous nous concentrons sur les fonctionnalités les plus utiles lorsque l'on comm
 * les recherches -> rapide vs. avancée, immédiate vs. sauvegardée avec mise à jour dynamique,.
 * les notes.
 
-**⚠️** Dans Zotero, l'icône associée à une **collection** est un dossier, mais les collections ressemblent plus à des **listes de lecture musicales** (pensez à iTunes, Spotify, etc.) qu'à des dossiers dans le système de fichiers de votre ordinateur.
+⚠️ Dans Zotero, l'icône associée à une **collection** est un dossier, mais les collections ressemblent plus à des **listes de lecture musicales** (pensez à iTunes, Spotify, etc.) qu'à des dossiers dans le système de fichiers de votre ordinateur.
 
 ### Exercice 4-1, démarrer avec l'organisation
 
@@ -385,7 +372,7 @@ Nous prenons **10 minutes** pour cette activité.
 
 ### Aller plus loin
 
-**💡 Conseil : laissez Zotero travailler pour vous**
+💡 **Conseil : laissez Zotero travailler pour vous**
 
 N'oubliez pas que le classement des articles dans les collections, l'ajout de marqueurs, etc. nécessitent une saisie manuelle et prennent du temps. **Les recherches sauvegardées** sont un excellent moyen de gagner du temps et de l'efficacité, en utilisant automatiquement les informations que vous avez récupérées et ajoutées pour chaque document.
 
@@ -442,7 +429,49 @@ Deux styles bibliographiques peuvent être appropriés pour vos travaux académi
 
 **Ces 2 styles sont intégrés dans Zotero et vous n'avez aucune action complémentaire à effectuer pour les utiliser.**
 
-Pour gérer les styles bibliographiques, allez dans les _Préférences_ > _Citer_ > _Styles_.
+##### Style Vancouver
+
+Vancouver est un style dit "numérique".
+
+Dans le texte : chaque référence citée est appelée par un **numéro**.
+
+>Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">[21, 22]</span>.
+
+Dans la bibliographie : les références sont classées par **ordre d’apparition dans le texte**.
+
+><span style="color:#0000CD;">21\.</span> Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
+>
+><span style="color:#0000CD;">22\.</span> van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
+
+##### Style APA
+
+APA est un style dit "auteur-date".
+
+Dans le texte : chaque référence citée est appelée par le **le nom de l'auteur et la date de publication**.
+
+> Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">(van der Klei et al. 1991; Zwart et al. 1983)</span>
+
+Dans la bibliographie : les références sont classées par **ordre alphabétique d'auteur**.
+
+>van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
+>
+>Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
+
+</br>
+
+💡 **Conseil** : consultez le ✒️ [Mémo : rédaction bibliographique avec la norme Vancouver et le logiciel Zotero](https://github.com/fflamerie/bibliolog/blob/master/docs/vancouver_zotero_memo.pdf)
+
+Vous y trouverez notamment, pour chaque type de document :
+
+* un modèle avec les informations à mentionner (titre, auteur, etc.),
+* un exemple de référence rédigée,
+* l'exemple de document Zotero correspondant, avec une mise en valeur des champs à renseigner impérativement.
+
+👉 La plupart des consignes sont valables également pour le style APA.
+
+</br>
+
+Pour gérer les styles bibliographiques dans Zotero, allez dans les _Préférences_ > _Citer_ > _Styles_.
 
 ![zotero][zotero] [Documentation Zotero : Les styles bibliographiques](https://www.zotero.org/support/fr/styles)
 
@@ -450,27 +479,22 @@ Pour gérer les styles bibliographiques, allez dans les _Préférences_ > _Citer
 
 ### Exercice 5-1, citer dans un fichier de traitement de texte
 
-Nous prenons **20 minutes** pour cette activité.
+Nous prenons **20 minutes** pour faire cette activité ensemble.
 
-Vous avez reçu un exemplaire d'un texte comportant des citations dans le texte et une bibliographie récapitulative.
 
-Le style bibliographique est **Vancouver**.
+L'objectif est de reproduire exactement le modèle présenté dans le fichier `zotero_citer_APA_MODELE.pdf` ou `zotero_citer_VANCOUVER_MODELE.pdf`.
 
-Produisez un document identique à ce texte.
+Il nous faut pour ce faire :
 
-* Téléchargez [le modèle au format .doc](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_EXERCICE.doc).
-* Récupérez et ajoutez à votre bibliothèque Zotero les références bibliographiques citées, vous devriez les trouver toutes en ligne.
+* un fichier de traitement de texte à éditer -> c'est le fichier `zotero_citer_APA_EXERCICE.doc`ou`zotero_citer_VANCOUVER_EXERCICE.doc`;
+* les documents Zotero correspondant aux références citées -> nous allons les chercher et les enregistrer dans la bibliothèque Zotero;
+* le style bibliographique à appliquer -> il s'agit du style **APA** ou **Vancouver**.
 
-**💡 Conseils**
+</br>
 
-* N'oubliez pas de taper le titre "Bibliographie", car il ne sera pas généré par Zotero.
-* Vous voulez en savoir plus sur le style Vancouver? Consultez notre [Mémo : rédaction bibliographique avec la norme Vancouver et le logiciel Zotero](https://github.com/fflamerie/bibliolog/blob/master/docs/vancouver_zotero_memo.pdf)
+💡 **Conseil : N'oubliez pas de taper le titre "Bibliographie" ou "Bibliography", car il ne sera pas généré par Zotero.**
 
-**Questions bonus**
-
-* Essayez d'obtenir un fichier PDF de texte intégral pour chaque document : est-ce possible **en utilisant uniquement des moyens légaux** ?
-* Comment faites-vous ?
-
+</br>
 
 ![zotero][zotero] [Documentation Zotero : Modules pour logiciel de traitement de texte](https://www.zotero.org/support/fr/word_processor_integration)
 
@@ -511,7 +535,7 @@ Assurez-vous que votre répertoire de données Zotero est inclus dans les sauveg
 
 ![zotero][zotero] [Documentation Zotero : Le répertoire de données Zotero](https://www.zotero.org/support/fr/zotero_data)
 
-**⚠️La synchronisation n'est pas une stratégie de sauvegarde recommandée**. Les serveurs Zotero ne stockent en effet que la version la plus récente de votre bibliothèque, et il suffit d'une simple synchronisation (éventuellement automatique) pour modifer la copie du serveur. La synchronisation est utile pour obtenir une copie de votre bibliothèque sur plusieurs appareils et pour créer des bibliothèques de groupe, mais elle est différente de la sauvegarde.
+⚠️ **La synchronisation n'est pas une stratégie de sauvegarde recommandée**. Les serveurs Zotero ne stockent en effet que la version la plus récente de votre bibliothèque, et il suffit d'une simple synchronisation (éventuellement automatique) pour modifier la copie du serveur. La synchronisation est utile pour obtenir une copie de votre bibliothèque sur plusieurs appareils et pour créer des bibliothèques de groupe, mais elle est différente de la sauvegarde.
 
 ![zotero][zotero] [Documentation Zotero : Synchronisation](https://www.zotero.org/support/fr/sync)
 
