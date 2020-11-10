@@ -13,10 +13,16 @@ Matériel de la formation "Introduction à Zotero, votre assistant de recherche 
 
 * EXERCICES
   * TP ajouter des documents : [fichier .ris à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/import_file.ris) et [fichier .pdf à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf)
-  * TP insérer des citations et une bibliographie : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_EXERCICE_COR.doc) et [fichier PDF avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_EXERCICE_COR.pdf)
+  * TP insérer des citations et une bibliographie : 
+  
+:1234: Style Vancouver : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_MODELE.pdf)
+
+:capital_abcd: Style APA : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_MODELE.pdf)
 
 ## Cours en distanciel
-:point_right: prochainement disponible
+* TRAME - [à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_TRAME.md) et [à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_TRAME.pdf)
+* PREPARATION - fichier envoyés en :package: [zip](https://github.com/fflamerie/zotero_intro_FR/tree/master/content/zip_distanciel) une semaine avant la formation aux stagiaires 
+* [Mode d'emploi personnalisable au format .md](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_MODE_EMPLOI.md) - une version PDF est incluse dans le zip cité précédemment
 
 ## Suppléments
 
