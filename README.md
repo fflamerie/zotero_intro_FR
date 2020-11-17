@@ -21,7 +21,7 @@ Matériel de la formation "Introduction à Zotero, votre assistant de recherche 
 
 ## Cours en distanciel
 * TRAME - [à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_TRAME.md) et [à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_TRAME.pdf)
-* PREPARATION - fichier envoyés en :package: [zip](https://github.com/fflamerie/zotero_intro_FR/tree/master/content/zip_distanciel) une semaine avant la formation aux stagiaires 
+* PREPARATION - fichiers envoyés en :package: [zip](https://github.com/fflamerie/zotero_intro_FR/tree/master/content/zip_distanciel) une semaine avant la formation aux stagiaires 
 * [Mode d'emploi personnalisable au format .md](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_MODE_EMPLOI.md) - une version PDF est incluse dans le zip cité précédemment
 
 ## Suppléments
