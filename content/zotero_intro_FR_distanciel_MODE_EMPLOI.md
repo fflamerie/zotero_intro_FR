@@ -108,8 +108,8 @@ Dans cette rubrique, devrait s'afficher la bibliothèque de groupe que vous vene
 
 Nous utiliserons les 2 fichiers suivants pour les exercices au cours de la formation.
 
-* `zotero_citer_APA_MODELE.pdf` [ou `zotero_citer_VANCOUVER_MODELE.pdf` ]
-* `zotero_citer_APA_EXERCICE.doc`[ou `zotero_citer_VANCOUVER_EXERCICE.doc`]
+* `zotero_citer_APA_MODELE.pdf` 
+* `zotero_citer_APA_EXERCICE.doc`
 
 Aussi enregistrez-les à un emplacement auquel vous pourrez facilement les retrouver.
 
