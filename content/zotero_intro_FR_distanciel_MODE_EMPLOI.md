@@ -17,7 +17,7 @@ Vous souhaitez consulter le support de formation à l'avance?
 Vous pouvez consulter le support prévu pour la formation en présentiel. Le contenu sera globalement le même, proposé selon un rythme différent et avec d'autres activités.
 
 * [Introduction à Zotero, votre assistant de recherche personnel - COURS au format html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md)
-* [Introduction à Zotero, votre assistant de recherche personnel - COURS au format pdf](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md)
+* [Introduction à Zotero, votre assistant de recherche personnel - COURS au format pdf](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.pdf)
 * [Introduction à Zotero, votre assistant de recherche personnel - Suppléments](https://github.com/fflamerie/zotero_intro_FR#suppl%C3%A9ments)
 
 
@@ -70,13 +70,13 @@ https://www.zotero.org/groups/_XXX_groupe2 -> pour le groupe 2, cours du XXX
 Pour cela, il faut d'abord que  :
 
 *  je valide votre inscription,
- *  vous activiez la synchronisation Zotero.
+*  vous activiez la synchronisation Zotero.
 
  C'est l'étape suivante.
 
 ## Etape 3 : paramétrer la synchronisation de Zotero
 
-Pour faire apparaître la bibliothèque de groupe dans Zotero,  vous devez configurer la synchronisation Zotero.
+Pour faire apparaître la bibliothèque de groupe dans Zotero, vous devez configurer la synchronisation Zotero.
 
 Ces paramètres sont accessibles depuis les _Préférences_ > _Synchronisation_.
 
@@ -88,7 +88,7 @@ Cochez _Synchroniser automatiquement_.
 
 ### Synchronisation des fichiers
 
-* Ne pas cochez _Synchroniser les fichiers joints de ma bibliothèque en utilisant..._
+* Ne cochez pas _Synchroniser les fichiers joints de ma bibliothèque en utilisant..._
 * Cochez _Synchroniser les fichiers joints dans les bibliothèques en utilisant le stockage de Zotero_.
 
 ![zotero_pref_sync](img/zotero_pref_sync.png)
@@ -98,7 +98,7 @@ Cochez _Synchroniser automatiquement_.
 
 Une fois la synchronisation activée, vous devriez voir apparaître une nouvelle rubrique "Bibliothèques de groupe" dans Zotero, en-dessous de "Ma bibliothèque".
 
-Dans cette rubrique, devrait s'afficher la bibliothèque de groupe que je vous avez rejointe, par exemple `_XXX_groupe1`
+Dans cette rubrique, devrait s'afficher la bibliothèque de groupe que vous venez de rejoindre.
 
 
 ![zotero_bib_groupe](img/zotero_bib_groupe.png)
@@ -108,8 +108,8 @@ Dans cette rubrique, devrait s'afficher la bibliothèque de groupe que je vous a
 
 Nous utiliserons les 2 fichiers suivants pour les exercices au cours de la formation.
 
-* `zotero_citer_APA_MODELE.pdf`
-* `zotero_citer_APA_EXERCICE.doc`
+* `zotero_citer_APA_MODELE.pdf` [ou `zotero_citer_VANCOUVER_MODELE.pdf` ]
+* `zotero_citer_APA_EXERCICE.doc`[ou `zotero_citer_VANCOUVER_EXERCICE.doc`]
 
 Aussi enregistrez-les à un emplacement auquel vous pourrez facilement les retrouver.
 
