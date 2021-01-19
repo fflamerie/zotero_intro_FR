@@ -11,13 +11,22 @@ Matériel de la formation "Introduction à Zotero, votre assistant de recherche 
 ## Cours en présentiel
 * COURS - [à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md) - [à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.pdf)
 
-* EXERCICES
-  * TP ajouter des documents : [fichier .ris à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/import_file.ris) et [fichier .pdf à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf)
-  * TP insérer des citations et une bibliographie : 
+* EXERCICE 1 : ajouter des documents 
+  * [fichier .ris à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/import_file.ris)
+  * [fichier .pdf à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf)
+ 
+* EXERCICE 2 : insérer des citations et une bibliographie 
+  * A partir d'exemples de documents en **santé publique**
   
 :1234: Style Vancouver : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_MODELE.pdf)
 
 :capital_abcd: Style APA : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_MODELE.pdf)
+
+  * A partir d'exemples de documents en **science infirmière**
+ 
+ :1234: Style Vancouver : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_MODELE.pdf)
+
+:capital_abcd: Style APA : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_APA_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_APA_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_APA_MODELE.pdf)
 
 ## Cours en distanciel
 * TRAME - [à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_TRAME.md) et [à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_TRAME.pdf)
