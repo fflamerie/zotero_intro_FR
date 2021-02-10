@@ -16,13 +16,14 @@ Matériel de la formation "Introduction à Zotero, votre assistant de recherche 
   * [fichier .pdf à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf)
  
 * EXERCICE 2 : insérer des citations et une bibliographie 
-  * A partir d'exemples de documents en **santé publique**
+
+ A partir d'exemples de documents en **santé publique**
   
 :1234: Style Vancouver : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_MODELE.pdf)
 
 :capital_abcd: Style APA : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_MODELE.pdf)
 
-  * A partir d'exemples de documents en **science infirmière**
+ A partir d'exemples de documents en **science infirmière**
  
  :1234: Style Vancouver : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_EXERCICE.doc), [fichier .doc avec corrigé](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_COR.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_MODELE.pdf)
 
