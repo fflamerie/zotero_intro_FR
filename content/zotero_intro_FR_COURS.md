@@ -133,7 +133,7 @@ De plus, le connecteur Zotero existant pour Safari était déjà beaucoup plus l
 
 Zotero est à la fois **simple à utiliser** et **puissant**.
 
-Zotero est **compatible avec un grand nombre de ressources en ligne** : en mars 2020, plus de 500 ressources sont entièrement compatibles (c'est plus que tout autre logiciel de gestion bibliographique).
+Zotero est **compatible avec un grand nombre de ressources en ligne** : en avril 2021, plus de 500 ressources sont entièrement compatibles (c'est plus que tout autre logiciel de gestion bibliographique).
 
 Zotero est **libre**. Non seulement il est gratuit, mais c'est surtout un logiciel libre, sans aucune restriction due au contrat de licence. Cela signifie que lorsque vous quitterez l'université, vous pourrez toujours l'utiliser comme vous l'avez fait ici.
 
