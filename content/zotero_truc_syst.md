@@ -1,5 +1,13 @@
 # Trucs et astuces pour optimiser l'utilisation de Zotero dans le contexte d'une revue de littérature ou d'une revue systématique
 
+<!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+
+- [Enregistrer les références par import de fichier plutôt que par le connecteur Zotero (bouton "Save to Zotero" dans votre navigateur)](#enregistrer-les-références-par-import-de-fichier-plutôt-que-par-le-connecteur-zotero-bouton-save-to-zotero-dans-votre-navigateur)   
+- [Organiser sa bibliothèque avec des marqueurs](#organiser-sa-bibliothèque-avec-des-marqueurs)   
+- [Automatiser et optimiser la recherche du texte intégral](#automatiser-et-optimiser-la-recherche-du-texte-intégral)   
+
+<!-- /MDTOC -->
+
 ## Enregistrer les références par import de fichier plutôt que par le connecteur Zotero (bouton "Save to Zotero" dans votre navigateur)
 
 Cliquer sur le bouton "Save to Zotero" est la meilleure méthode pour enregistrer des documents dans votre bibliothèque au fil de votre navigation dans les bases de données, lorsqu'il s'agit d'enregistrer un document après l'autre.
@@ -52,6 +60,11 @@ Pourquoi privilégier les marqueurs plutôt que les collections?
 
 Plus d'infos : [Cours "Introduction à Zotero, votre assistant de recherche personnel" > section "Constituer sa bibliothèque Zotero étape 2, organiser le contenu"](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md#4-constituer-sa-biblioth%C3%A8que-zotero-%C3%A9tape-2-organiser-le-contenu)
 
+### Rappel en images : créer un marqueur dans un document et lui attribuer une couleur
+
+![gif_ajout_tag](img/ZoteroTags.gif)
+
+_Source : [Mini-site Zotero Lausanne > Tutoriel Zotero](https://lausannecitationstyle.github.io/support/3.html)_
 
 ## Automatiser et optimiser la recherche du texte intégral
 
@@ -64,10 +77,13 @@ Zotero dispose de fonctionnalités par défaut pour rechercher et enregistrer au
 Deux fonctionnalités complémentaires vous permettent d'augmenter ces fonctions de recherche. Elles sont toutes les 2 accessibles depuis **le menu _Localiser_**, c'est-à-dire la flèche verte en haut du volet de droite dans votre bibliothèque Zotero. Il s'agit de :
 
 * la **configuration OpenURL** pour l'Université de Bordeaux,
-* et la personnalisation des **moteurs de recherche intégrés à Zotero**.
+* la personnalisation des **moteurs de recherche intégrés à Zotero**.
 
+
+### Configuration OpenURL
 
 Pour la configuration OpenURL, il suffit :
+
 * d'aller à l'onglet _Avancées_ > _Générales_ des _Préférences_,
 * dans le champ _OpenURL_ > _Résolveur des liens_, coller l'URL suivante :
 
@@ -77,4 +93,38 @@ https://babordplus.hosted.exlibrisgroup.com/primo-explore/openurl?&Force_direct=
 
 * En cliquant sur le menu _Localiser_ > _Rechercher dans la bibliothèque_, vous afficherez le document dans Babord+ avec toutes les options d'accès de l'université de Bordeaux.
 
-La personnalisation des moteurs de recherche, incluant un fichier de moteurs préconfiguré, est décrite en détails dans le billet du blog Zotero francophone [Les moteurs de recherche intégrés à Zotero](https://zotero.hypotheses.org/3388).
+### Moteurs de recherche intégrés à Zotero
+
+Ces moteurs de recherche vous permettent de lancer une recherche dans diverses sources pour trouver un fichier de texte intégral disponible sur un site web personnel  (moteurs Google, Google Scholar), ou pour compléter les informations bibliographiques de vos documents (moteur Sudoc pour les livres et les thèses, moteur PubMed pour les articles).
+
+Pour en savoir plus concernant la personnalisation des moteurs de recherche et découvrir d'autres moteurs que ceux installés dans le fichier de moteurs préconfiguré ci-dessous, consultez le billet du blog Zotero francophone [Les moteurs de recherche intégrés à Zotero](https://zotero.hypotheses.org/3388).
+
+#### Fichier de moteurs de recherche préconfiguré
+
+Vous trouverez dans le fichier [engines_BX-svs.json](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/engines_BX-svs.json) les moteurs de recherche ci-dessous.
+
+* Bordeaux + - Université de Bordeaux
+* Crossref
+* Google Scholar
+* Google Scholar - Title Only
+* Google  🚧 en panne
+* SUDOC
+* SUDOC - auteur(s)/titre
+* SUDOC - auteur(s)/titre/ISBN
+* SUDOC - ISBN
+* PubMed DOI
+* PubMed (title + author)
+
+Voici comment procéder pour installer ce fichier dans Zotero.
+
+_Les raccourcis clavier indiqués sont ceux utilisables sous Windows._
+
+1. Dans les _Préférences_ de Zotero, cliquez sur _Avancées_ > _Fichiers et dossiers_ > _Ouvrir le répertoire de données_
+2. Dans la fenêtre de votre explorateur de fichiers qui s'affiche, ouvrez le dossier `locate`.
+3. Fermez complètement Zotero, c'est-à-dire y compris la fenêtre des préférences.
+4. Ouvrez avec le Bloc-notes le fichier `engines.json` qui se trouve à l'intérieur du dossier `locate`.
+5. Allez à l'adresse suivante pour afficher et récupérer facilement le contenu du fichier de moteurs préconfiguré `engines_BX-svs.json` : <https://raw.githubusercontent.com/fflamerie/zotero_intro_FR/master/content/engines_BX-svs.json>
+6. Sur cette page, activez les raccourcis clavier `Ctrl+A` puis `Ctrl+C` pour sélectionner et copier tout le contenu du fichier : il ne doit manquer aucun signe, aucune virgule ni crochet, sinon le fichier ne fonctionnera pas.
+7. Revenez dans le Bloc-notes et remplacez le contenu du fichier `engines.json` par le contenu du fichier `engines_BX-svs.json` , que vous venez de copier : activez les raccourcis clavier `Ctrl+A` puis `Ctrl+V` pour ce faire.
+8. Enregistrez et fermez le fichier `engines.json`.
+9. Redémarrez Zotero : lorsque vous sélectionnez un document de votre bibliothèque, vous devez voir s'afficher vos nouveaux moteurs de recherche sous le menu _Localiser_.
