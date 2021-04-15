@@ -107,7 +107,7 @@ Vous trouverez dans le fichier [engines_BX-svs.json](https://github.com/fflameri
 * Crossref
 * Google Scholar
 * Google Scholar - Title Only
-* Google  🚧 en panne
+* Google
 * SUDOC
 * SUDOC - auteur(s)/titre
 * SUDOC - auteur(s)/titre/ISBN
