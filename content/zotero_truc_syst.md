@@ -101,7 +101,7 @@ Pour en savoir plus concernant la personnalisation des moteurs de recherche et d
 
 #### Fichier de moteurs de recherche préconfiguré
 
-Vous trouverez dans le fichier [engines_BX-svs.json](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/engines_BX-svs.json) les moteurs de recherche ci-dessous.
+Vous trouverez dans le fichier [engines_BX-svs.json](https://raw.githubusercontent.com/fflamerie/zotero_intro_FR/master/content/engines_BX-svs.json) les moteurs de recherche ci-dessous.
 
 * Bordeaux + - Université de Bordeaux
 * Crossref
@@ -117,14 +117,14 @@ Vous trouverez dans le fichier [engines_BX-svs.json](https://github.com/fflameri
 
 Voici comment procéder pour installer ce fichier dans Zotero.
 
-_Les raccourcis clavier indiqués sont ceux utilisables sous Windows._
+1. 📥 Téléchargez le fichier en faisant un clic droit sur ce lien : [engines_BX-svs.json](https://raw.githubusercontent.com/fflamerie/zotero_intro_FR/master/content/engines_BX-svs.json) et en choisissant "Enregistrer le lien sous…" ou "Enregistrer la cible du lien sous...".
 
-1. Dans les _Préférences_ de Zotero, cliquez sur _Avancées_ > _Fichiers et dossiers_ > _Ouvrir le répertoire de données_
-2. Dans la fenêtre de votre explorateur de fichiers qui s'affiche, ouvrez le dossier `locate`.
-3. Fermez complètement Zotero, c'est-à-dire y compris la fenêtre des préférences.
-4. Ouvrez avec le Bloc-notes le fichier `engines.json` qui se trouve à l'intérieur du dossier `locate`.
-5. Allez à l'adresse suivante pour afficher et récupérer facilement le contenu du fichier de moteurs préconfiguré `engines_BX-svs.json` : <https://raw.githubusercontent.com/fflamerie/zotero_intro_FR/master/content/engines_BX-svs.json>
-6. Sur cette page, activez les raccourcis clavier `Ctrl+A` puis `Ctrl+C` pour sélectionner et copier tout le contenu du fichier : il ne doit manquer aucun signe, aucune virgule ni crochet, sinon le fichier ne fonctionnera pas.
-7. Revenez dans le Bloc-notes et remplacez le contenu du fichier `engines.json` par le contenu du fichier `engines_BX-svs.json` , que vous venez de copier : activez les raccourcis clavier `Ctrl+A` puis `Ctrl+V` pour ce faire.
-8. Enregistrez et fermez le fichier `engines.json`.
-9. Redémarrez Zotero : lorsque vous sélectionnez un document de votre bibliothèque, vous devez voir s'afficher vos nouveaux moteurs de recherche sous le menu _Localiser_.
+2. Renommez-le ensuite en `engines.json`.
+
+3. 🖱️ Copiez-le dans le répertoire `locate` de votre répertoire de données Zotero, en remplacement du fichier existant.
+
+ℹ️ Pour accéder à votre répertoire de données Zotero depuis les _Préférences_ de Zotero, cliquez sur :
+
+_Avancées_ > _Fichiers et dossiers_ > _Ouvrir le répertoire de données_
+
+4. Redémarrez Zotero : lorsque vous sélectionnez un document de votre bibliothèque, vous devez voir s'afficher vos nouveaux moteurs de recherche sous le menu _Localiser_.
