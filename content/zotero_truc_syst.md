@@ -85,11 +85,9 @@ Deux fonctionnalités complémentaires vous permettent d'augmenter ces fonctions
 Pour la configuration OpenURL, il suffit :
 
 * d'aller à l'onglet _Avancées_ > _Générales_ des _Préférences_,
-* dans le champ _OpenURL_ > _Résolveur des liens_, coller l'URL suivante :
+* dans la rubrique _OpenURL_, ouvrir le menu déroulant et naviguer dans la liste géographique jusqu'à l'entrée "Université de bordeaux". 
 
-```
-https://babordplus.hosted.exlibrisgroup.com/primo-explore/openurl?&Force_direct=false&vid=33PUDB_UB_VU1&institution=33PUDB_UB&
-```
+![zotero_openurl](img/zotero_openurl.png)
 
 * En cliquant sur le menu _Localiser_ > _Rechercher dans la bibliothèque_, vous afficherez le document dans Babord+ avec toutes les options d'accès de l'université de Bordeaux.
 
