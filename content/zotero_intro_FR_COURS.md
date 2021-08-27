@@ -191,10 +191,9 @@ Voici quelques recommandations pour démarrer. Tous les paramétrages sont acces
 
 * Onglet **_Avancées_ > _Générales_**
 
-Dans le champ _OpenURL_ > _Résolveur des liens_, copiez et collez l'URL suivante :
+Dans la rubrique _OpenURL_ ouvrez le menu déroulant et naviguez dans la liste géographique pour sélectionner l'Université de Bordeaux.
 
-
-https://babordplus.hosted.exlibrisgroup.com/primo-explore/openurl?&Force_direct=false&vid=33PUDB_UB_VU1&institution=33PUDB_UB&
+![zotero_openurl](img/zotero_openurl.png)
 
 Cela vous permettra de générer la page de Babord+ d'un document à partir de votre bibliothèque Zotero. Cette page Babord+ affiche toutes les options d'accès de l'université de Bordeaux, et vous pourrez ainsi trouver des PDF que Zotero ne sera pas parvenu à télécharger automatiquement.
 
