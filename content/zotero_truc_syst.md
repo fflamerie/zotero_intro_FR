@@ -3,12 +3,12 @@
 <!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Enregistrer les références par import de fichier plutôt que par le connecteur Zotero (bouton "Save to Zotero" dans votre navigateur)](#enregistrer-les-références-par-import-de-fichier-plutôt-que-par-le-connecteur-zotero-bouton-save-to-zotero-dans-votre-navigateur)   
-   - [Scopus : importer directement les références dans un fichier](#scopus-importer-directement-les-références-dans-un-fichier)   
-   - [PubMed : importer directement les références dans un fichier](#pubmed-importer-directement-les-références-dans-un-fichier)   
-   - [LiSSa : importer directement les références dans un fichier](#lissa-importer-directement-les-références-dans-un-fichier)   
-   - [CAIRN : créer une liste pour importer les références dans un fichier](#cairn-créer-une-liste-pour-importer-les-références-dans-un-fichier)   
+   - [Scopus](#scopus)   
+   - [PubMed](#pubmed)   
+   - [LiSSa](#lissa)   
+   - [CAIRN](#cairn)   
 - [Organiser sa bibliothèque avec des marqueurs](#organiser-sa-bibliothèque-avec-des-marqueurs)   
-   - [Rappel en images : créer un marqueur dans un document et lui attribuer une couleur](#rappel-en-images-créer-un-marqueur-dans-un-document-et-lui-attribuer-une-couleur)   
+   - [Créer un marqueur dans un document et lui attribuer une couleur](#créer-un-marqueur-dans-un-document-et-lui-attribuer-une-couleur)   
 - [Automatiser et optimiser la recherche du texte intégral](#automatiser-et-optimiser-la-recherche-du-texte-intégral)   
    - [Configuration OpenURL](#configuration-openurl)   
    - [Moteurs de recherche intégrés à Zotero](#moteurs-de-recherche-intégrés-à-zotero)   
@@ -23,7 +23,7 @@ Dans le cadre d'une revue de littérature où vous devez enregistrer d'un seul c
 
 Voici comment procéder dans différents outils de recherche bibliographique, à partir d'une liste de résultats.
 
-### Scopus : importer directement les références dans un fichier
+### Scopus
 
 Dans la barre de menu grisée juste au-dessus de la liste de résultats :
 
@@ -38,7 +38,7 @@ Dans la barre de menu grisée juste au-dessus de la liste de résultats :
 
 Lorsque vous incluez le résumé, une limitation à **2'000 références** s'applique pour l'export. Si vous souhaitez exporter plus de 2'000 références, utilisez les filtres par date pour créer des lots par année de publication. Vous serez ainsi sûr d'inclure tous les résultats dans vos exports.
 
-### PubMed : importer directement les références dans un fichier
+### PubMed
 
 1. Cliquez sur _Send to_ > _Citation manager_.
 2. Dans le menu _Selection_ choisissez _All results_.
@@ -49,7 +49,7 @@ Lorsque vous incluez le résumé, une limitation à **2'000 références** s'app
 Plus d'infos : [Cours "Introduction à Zotero, votre assistant de recherche personnel" > section " Constituer sa bibliothèque Zotero étape 1, ajouter des documents et des fichiers"](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md#3-constituer-sa-biblioth%C3%A8que-zotero-%C3%A9tape-1-ajouter-des-documents-et-des-fichiers)
 
 
-### LiSSa : importer directement les références dans un fichier
+### LiSSa
 
 1. Modifiez le nombre le nombre de résultats par page en le passant à la valeur maximale proposée, c'est-à-dire 100 : cela vous permettra de sélectionner d'un seul clic toutes les références affichées sur la page.
 2. Une fois les références sélectionnées, cliquez sur _Envoyer_ > _Citations (ris)_.
@@ -59,7 +59,7 @@ Plus d'infos : [Cours "Introduction à Zotero, votre assistant de recherche pers
 
 ![zotero_lissa](img/zotero_lissa.png)
 
-### CAIRN : créer une liste pour importer les références dans un fichier
+### CAIRN
 
 CAIRN n'autorise pas la sélection multiple sur une liste de résultats, ce qui rend plus laborieux l'import par lot dans Zotero.
 
@@ -95,7 +95,7 @@ Pourquoi privilégier les marqueurs plutôt que les collections?
 
 Plus d'infos : [Cours "Introduction à Zotero, votre assistant de recherche personnel" > section "Constituer sa bibliothèque Zotero étape 2, organiser le contenu"](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md#4-constituer-sa-biblioth%C3%A8que-zotero-%C3%A9tape-2-organiser-le-contenu)
 
-### Rappel en images : créer un marqueur dans un document et lui attribuer une couleur
+### Créer un marqueur dans un document et lui attribuer une couleur
 
 ![gif_ajout_tag](img/ZoteroTags.gif)
 
