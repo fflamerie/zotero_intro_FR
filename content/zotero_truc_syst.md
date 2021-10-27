@@ -1,10 +1,17 @@
 # Trucs et astuces pour optimiser l'utilisation de Zotero dans le contexte d'une revue de littérature ou d'une revue systématique
 
-<!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+<!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Enregistrer les références par import de fichier plutôt que par le connecteur Zotero (bouton "Save to Zotero" dans votre navigateur)](#enregistrer-les-références-par-import-de-fichier-plutôt-que-par-le-connecteur-zotero-bouton-save-to-zotero-dans-votre-navigateur)   
+   - [Scopus : importer directement les références dans un fichier](#scopus-importer-directement-les-références-dans-un-fichier)   
+   - [PubMed : importer directement les références dans un fichier](#pubmed-importer-directement-les-références-dans-un-fichier)   
+   - [LiSSa : importer directement les références dans un fichier](#lissa-importer-directement-les-références-dans-un-fichier)   
+   - [CAIRN : créer une liste pour importer les références dans un fichier](#cairn-créer-une-liste-pour-importer-les-références-dans-un-fichier)   
 - [Organiser sa bibliothèque avec des marqueurs](#organiser-sa-bibliothèque-avec-des-marqueurs)   
+   - [Rappel en images : créer un marqueur dans un document et lui attribuer une couleur](#rappel-en-images-créer-un-marqueur-dans-un-document-et-lui-attribuer-une-couleur)   
 - [Automatiser et optimiser la recherche du texte intégral](#automatiser-et-optimiser-la-recherche-du-texte-intégral)   
+   - [Configuration OpenURL](#configuration-openurl)   
+   - [Moteurs de recherche intégrés à Zotero](#moteurs-de-recherche-intégrés-à-zotero)   
 
 <!-- /MDTOC -->
 
@@ -14,22 +21,24 @@ Cliquer sur le bouton "Save to Zotero" est la meilleure méthode pour enregistre
 
 Dans le cadre d'une revue de littérature où vous devez enregistrer d'un seul coup depuis une base de données tous les résultats d'une équation de recherche, l'import de fichier est plus adapté, car beaucoup plus rapide.
 
-Voici comment procéder dans Scopus et PubMed, à partir d'une liste de résultats.
+Voici comment procéder dans différents outils de recherche bibliographique, à partir d'une liste de résultats.
 
-### Scopus : importer les références dans un fichier
+### Scopus : importer directement les références dans un fichier
 
 Dans la barre de menu grisée juste au-dessus de la liste de résultats :
 
 1. Cochez la case _All_ >_Select All_.
 2. Puis cliquez sur _RIS export_ et choisissez les informations à exporter.
 
-**/!\\ N'oubliez pas le résumé, il n'est pas inclus par défaut.**
+💡 **N'oubliez pas le résumé, il n'est pas inclus par défaut.**
 
 3. Cliquez sur _Export_.
-4. Une boîte de dialogue s'affiche, choisissez "Ouvir avec" > "Zotero".
+4. Une boîte de dialogue s'affiche, choisissez _Ouvir avec_ > _Zotero_.
 5. Les références sont automatiquement importées dans votre bibliothèque.
 
-### PubMed : importer les références dans un fichier
+Lorsque vous incluez le résumé, une limitation à **2'000 références** s'applique pour l'export. Si vous souhaitez exporter plus de 2'000 références, utilisez les filtres par date pour créer des lots par année de publication. Vous serez ainsi sûr d'inclure tous les résultats dans vos exports.
+
+### PubMed : importer directement les références dans un fichier
 
 1. Cliquez sur _Send to_ > _Citation manager_.
 2. Dans le menu _Selection_ choisissez _All results_.
@@ -38,6 +47,32 @@ Dans la barre de menu grisée juste au-dessus de la liste de résultats :
 5. Suivez les étapes, les références sont automatiquement importées dans votre bibliothèque.
 
 Plus d'infos : [Cours "Introduction à Zotero, votre assistant de recherche personnel" > section " Constituer sa bibliothèque Zotero étape 1, ajouter des documents et des fichiers"](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md#3-constituer-sa-biblioth%C3%A8que-zotero-%C3%A9tape-1-ajouter-des-documents-et-des-fichiers)
+
+
+### LiSSa : importer directement les références dans un fichier
+
+1. Modifiez le nombre le nombre de résultats par page en le passant à la valeur maximale proposée, c'est-à-dire 100 : cela vous permettra de sélectionner d'un seul clic toutes les références affichées sur la page.
+2. Une fois les références sélectionnées, cliquez sur _Envoyer_ > _Citations (ris)_.
+3. Une boîte de dialogue vous permettra d'importer le fichier dans Zotero.
+
+💡 **Vous pouvez sélectionner consécutivement plusieurs pages de résultats avant de lancer l'export, afin d'enregistrer d'un seul coup plus de 100 références.**
+
+![zotero_lissa](img/zotero_lissa.png)
+
+### CAIRN : créer une liste pour importer les références dans un fichier
+
+CAIRN n'autorise pas la sélection multiple sur une liste de résultats, ce qui rend plus laborieux l'import par lot dans Zotero.
+
+💡 **Il est nécessaire de disposer d'un compte personnel sur CAIRN pour pouvoir effectuer les étapes détaillées ci-dessous.**
+
+1. Depuis l'interface de votre compte personnel, créez une liste de lecture. C'est dans cette liste que vous regrouperez toutes les références que vous souhaitez importer dans Zotero.
+2. Sur une liste de résultats, cliquez pour chaque référence sur _Ajouter à une liste_, puis choisissez la liste créée à l'étape 1.
+3. Dans l'interface de votre compte personnel, affichez la liste de lecture regroupant toutes les références que vous avez sélectionnées.
+4. Cliquez sur _Exporter_ > _Zotero (.RIS)_ pour générer le fichier, importé automatiquement par Zotero comme pour LiSSa.
+
+![zotero_cairn](img/zotero_cairn.png)
+
+
 
 ## Organiser sa bibliothèque avec des marqueurs
 
@@ -85,7 +120,7 @@ Deux fonctionnalités complémentaires vous permettent d'augmenter ces fonctions
 Pour la configuration OpenURL, il suffit :
 
 * d'aller à l'onglet _Avancées_ > _Générales_ des _Préférences_,
-* dans la rubrique _OpenURL_, ouvrir le menu déroulant et naviguer dans la liste géographique jusqu'à l'entrée "Université de bordeaux". 
+* dans la rubrique _OpenURL_, ouvrir le menu déroulant et naviguer dans la liste géographique jusqu'à l'entrée "Université de bordeaux".
 
 ![zotero_openurl](img/zotero_openurl.png)
 
