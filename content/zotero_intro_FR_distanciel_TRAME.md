@@ -1,4 +1,4 @@
-#  Introduction à Zotero, votre assistant de recherche personnel : modalité en distanciel
+#  Introduction à Zotero, votre assistant de recherche personnel : feuille de route
 
 Le document de cours complet est disponible ici :
 
