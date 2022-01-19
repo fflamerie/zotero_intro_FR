@@ -3,10 +3,13 @@
 <!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Enregistrer les références par import de fichier plutôt que par le connecteur Zotero (bouton "Save to Zotero" dans votre navigateur)](#enregistrer-les-références-par-import-de-fichier-plutôt-que-par-le-connecteur-zotero-bouton-save-to-zotero-dans-votre-navigateur)   
-   - [Scopus](#scopus)   
    - [PubMed](#pubmed)   
+   - [Scopus](#scopus)   
+   - [Web of Science Core Collection](#web-of-science-core-collection)   
    - [LiSSa](#lissa)   
    - [CAIRN](#cairn)   
+   - [PsycINFO, CINAHL et autres bases disponibles via EBSCO](#psycinfo-cinahl-et-autres-bases-disponibles-via-ebsco)   
+- [Snowballing, ou enregistrer toutes les références citées par un article](#snowballing-ou-enregistrer-toutes-les-références-citées-par-un-article)   
 - [Organiser sa bibliothèque avec des marqueurs](#organiser-sa-bibliothèque-avec-des-marqueurs)   
    - [Créer un marqueur dans un document et lui attribuer une couleur](#créer-un-marqueur-dans-un-document-et-lui-attribuer-une-couleur)   
 - [Automatiser et optimiser la recherche du texte intégral](#automatiser-et-optimiser-la-recherche-du-texte-intégral)   
@@ -23,21 +26,6 @@ Dans le cadre d'une revue de littérature où vous devez enregistrer d'un seul c
 
 Voici comment procéder dans différents outils de recherche bibliographique, à partir d'une liste de résultats.
 
-### Scopus
-
-Dans la barre de menu grisée juste au-dessus de la liste de résultats :
-
-1. Cochez la case _All_ >_Select All_.
-2. Puis cliquez sur _RIS export_ et choisissez les informations à exporter.
-
-💡 **N'oubliez pas le résumé, il n'est pas inclus par défaut.**
-
-3. Cliquez sur _Export_.
-4. Une boîte de dialogue s'affiche, choisissez _Ouvir avec_ > _Zotero_.
-5. Les références sont automatiquement importées dans votre bibliothèque.
-
-Lorsque vous incluez le résumé, une limitation à **2'000 références** s'applique pour l'export. Si vous souhaitez exporter plus de 2'000 références, utilisez les filtres par date pour créer des lots par année de publication. Vous serez ainsi sûr d'inclure tous les résultats dans vos exports.
-
 ### PubMed
 
 1. Cliquez sur _Send to_ > _Citation manager_.
@@ -48,6 +36,32 @@ Lorsque vous incluez le résumé, une limitation à **2'000 références** s'app
 
 Plus d'infos : [Cours "Introduction à Zotero, votre assistant de recherche personnel" > section " Constituer sa bibliothèque Zotero étape 1, ajouter des documents et des fichiers"](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md#3-constituer-sa-biblioth%C3%A8que-zotero-%C3%A9tape-1-ajouter-des-documents-et-des-fichiers)
 
+### Scopus
+
+Dans la barre de menu grisée juste au-dessus de la liste de résultats :
+
+1. cochez la case _All_ >_Select All_,
+2. puis cliquez sur _RIS export_ et choisissez les informations à exporter.
+
+💡 **N'oubliez pas le résumé, il n'est pas inclus par défaut.**
+
+3. Cliquez sur _Export_.
+4. Une boîte de dialogue s'affiche, choisissez _Ouvir avec_ > _Zotero_.
+5. Les références sont automatiquement importées dans votre bibliothèque.
+
+Lorsque vous incluez le résumé, une limitation à **2'000 références** s'applique pour l'export. Si vous souhaitez exporter plus de 2'000 références, utilisez les filtres par date pour créer des lots par année de publication. Vous serez ainsi sûr d'inclure tous les résultats dans vos exports.
+
+### Web of Science Core Collection
+
+A partir d'une liste de résultats, cliquez directement sur _Export_ pour afficher toutes les options vous permettant de choisir :
+
+* le format d'export,
+* puis les références à exporter,
+* et les champs à exporter.
+
+Le **format RIS** permet une détection et un import automatiques du fichier dans Zotero. Il peut en revanche s'avérer trop limité si vous souhaitez exporter des champs complémentaires, sélectionnés avec l'option _Custom selection_. Il convient alors de privilégier le format _Plain Text File_ et d'importer le fichier ainsi généré de la même façon que pour PubMed.
+
+Une limitation à **1'000 références** s'applique pour l'export. Comme pour Scopus, il faut procéder par petits lots successifs si vous souhaitez exporter plus de 1'000 références.
 
 ### LiSSa
 
@@ -72,7 +86,42 @@ CAIRN n'autorise pas la sélection multiple sur une liste de résultats, ce qui 
 
 ![zotero_cairn](img/zotero_cairn.png)
 
+### PsycINFO, CINAHL et autres bases disponibles via EBSCO
 
+A la différence des outils de recherche mentionnés précédemment, l'interface de EBSCOhost ne permet pas des imports par lot de plusieurs centaines de référence.
+
+La manière la plus économique de procéder est d'augmenter le nombre de résultats par page et d'utiliser le connecteur Zotero, en procédant donc par tranche de 50 résultats.
+
+Pour modifier le nombre de résultats par page, cliquer sur _Options de page_ depuis une page de résultats et choisissez la valeur "50" dans le menu déroulant _Résultats par page_. Lorsque vous cliquez sur l'icône "dossier" du connecteur Zotero, il suffit ensuite de choisir l'option _Select all_ pour sélectionner les 50 résultats affichés sur la page en cours.
+
+![import_lot_zotero_ESBCO](img/EBSCO_import_lot_zotero.png)
+
+## Snowballing, ou enregistrer toutes les références citées par un article
+
+Le _snowballing_ fait partie des méthodes de recherche bibliographique utilisables pour une revue de littérature ; elle peut être requise.
+
+Certaines bases de données comme le **Web of Science Core Collection** ou **Scopus** permettent d'enregistrer par lot toutes les références citées par un article. Combiné à la fonctionnalité de **Connexe** de Zotero, cela permet de retrouver rapidement dans une bibliothèque Zotero tous les articles cités par un article donné, et de restituer le lien de citation.
+
+**Les références citées non indexées** dans la base de données sont traitées différemment dans Scopus et Web of Science.
+
+* Dans Scopus elles sont exportées mais incomplètes.
+* Dans Web of Science Core Collection elles ne sont pas exportées du tout.
+
+💡 **Il est donc préférable d'utiliser préférentiellement Scopus pour cet usage.**
+
+Voici comment procéder à partir de Scopus, la procédure est similaire pour le Web of Science.
+
+1. Sur la page d'un article, allez à la rubrique _References_ et cliquez sur le lien permettant d'afficher la liste des références sous la forme d'une liste de résultats. Dans Scopus il s'agit de _View in search results format_. Vous pouvez ensuite effectuer l'export de toutes les références comme décrit précédemment.
+
+![snowballing_1](img/SCOPUS_ref_citees_01.png)
+
+2. Dans votre bibliothèque Zotero, sélectionnez l'article dont vous venez d'importer la bibliographie, puis cliquez sur _Ajouter_ dans l'onglet _Connexe_ et sélectionnez toutes les références que vous venez d'importer.
+
+![snowballing_2](img/SCOPUS_ref_citees_02.png)
+
+3. Un lien réciproque est créé entre l'article et chacune des références qu'il cite. Ces liens sont affichés dans l'onglet _Connexe_ ; ils vous permettent de naviguer de l'article aux références qu'il cite et inversement.
+
+ ![snowballing_3](img/SCOPUS_ref_citees_03.png)
 
 ## Organiser sa bibliothèque avec des marqueurs
 
