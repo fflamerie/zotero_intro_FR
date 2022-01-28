@@ -90,11 +90,31 @@ CAIRN n'autorise pas la sélection multiple sur une liste de résultats, ce qui 
 
 A la différence des outils de recherche mentionnés précédemment, l'interface de EBSCOhost ne permet pas des imports par lot de plusieurs centaines de référence.
 
-La manière la plus économique de procéder est d'augmenter le nombre de résultats par page et d'utiliser le connecteur Zotero, en procédant donc par tranche de 50 résultats.
+Deux options sont possibles, en fonction du nombre de références à exporter l'une ou l'autre sera plus pertinente.
 
-Pour modifier le nombre de résultats par page, cliquer sur _Options de page_ depuis une page de résultats et choisissez la valeur "50" dans le menu déroulant _Résultats par page_. Lorsque vous cliquez sur l'icône "dossier" du connecteur Zotero, il suffit ensuite de choisir l'option _Select all_ pour sélectionner les 50 résultats affichés sur la page en cours.
+Pour modifier le nombre de résultats par page, cliquer sur _Options de page_ depuis une page de résultats et choisissez la valeur  appropriée dans le menu déroulant _Résultats par page_.
+
+#### Tranches de 30 références via le connecteur Zotero
+
+L'import via le connecteur de plus de 30 références ne fonctionne pas, aussi faut-il procéder par tranches de 30 si vous utilisez cette méthode, en paramétrant donc un affichage de **30 résultats par page**.
+
+Lorsque vous cliquez sur l'icône "dossier" du connecteur Zotero, il suffit ensuite de choisir l'option _Select all_ pour sélectionner les 30 résultats affichés sur la page en cours.
 
 ![import_lot_zotero_ESBCO](img/EBSCO_import_lot_zotero.png)
+
+#### Tranches de 50 références via l'export de fichiers
+
+Si l'import par le connecteur échoue ou que vous avez un très grand nombre de références, procéder comme suit peut se révéler plus rapide.
+
+1. Paramétrez l'affichage de **50 résultats par page**.
+2. Depuis votre liste de résultats, cliquez à droite sur _Partager_ > _Ajouter au dossier_ > _Résultats_.
+3. Les informations affichées dans ce menu de droite sont alors actualisées. Cliquez sur _Aller à : vue des dossiers_.
+4. Sur la page suivante, cliquez sur _Exporter_ dans le menu de droite.
+5. Sur la page suivante, cochez la case _Supprimer ces objets du dossier après la sauvegarde_ afin de réinitialiser le contenu de votre dossier et de ne pas outrepasser la limite de 50 références exportables en même temps. Sélectionnez le format _Direct Export au format RIS_, puis cliquez sur _Sauvegarder_ pour lancer l'import dans zotero.
+6. Cliquez ensuite sur _Retour_ pour revenir à la liste de résultats et procéder de la même façon pour les pages suivantes.
+
+![zotero_export_ebsco_ris](img/zotero_export_ebsco_ris.PNG)
+
 
 ## Snowballing, ou enregistrer toutes les références citées par un article
 
