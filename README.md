@@ -61,7 +61,7 @@ Le :black_nib: [Mémo : rédaction bibliographique avec la norme Vancouver et le
 
 ### Modalité à distance
 
-Lorsque cette formation est organisée à distance en visioconférence, il est demandé aux stagiaires d'installer au préalable Zotero sur leur ordinateur et de rejoindre une bibliothèque de groupe dédiée pourle stage.
+Lorsque cette formation est organisée à distance en visioconférence, il est demandé aux stagiaires d'installer au préalable Zotero sur leur ordinateur et de rejoindre une bibliothèque de groupe dédiée pour le stage.
 
 * Fichiers envoyés en :package: [zip](https://github.com/fflamerie/zotero_intro_FR/tree/master/content/zip_distanciel) une semaine avant la formation aux stagiaires 
 * [Mode d'emploi personnalisable au format .md](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_MODE_EMPLOI.md) - une version PDF est incluse dans le zip cité précédemment
