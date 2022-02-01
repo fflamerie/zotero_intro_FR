@@ -6,9 +6,9 @@
    - [PubMed](#pubmed)   
    - [Scopus](#scopus)   
    - [Web of Science Core Collection](#web-of-science-core-collection)   
+   - [PsycINFO, CINAHL et autres bases disponibles via EBSCO](#psycinfo-cinahl-et-autres-bases-disponibles-via-ebsco)   
    - [LiSSa](#lissa)   
    - [CAIRN](#cairn)   
-   - [PsycINFO, CINAHL et autres bases disponibles via EBSCO](#psycinfo-cinahl-et-autres-bases-disponibles-via-ebsco)   
 - [Snowballing, ou enregistrer toutes les références citées par un article](#snowballing-ou-enregistrer-toutes-les-références-citées-par-un-article)   
 - [Organiser sa bibliothèque avec des marqueurs](#organiser-sa-bibliothèque-avec-des-marqueurs)   
    - [Créer un marqueur dans un document et lui attribuer une couleur](#créer-un-marqueur-dans-un-document-et-lui-attribuer-une-couleur)   
@@ -63,6 +63,21 @@ Le **format RIS** permet une détection et un import automatiques du fichier dan
 
 Une limitation à **1'000 références** s'applique pour l'export. Comme pour Scopus, il faut procéder par petits lots successifs si vous souhaitez exporter plus de 1'000 références.
 
+### PsycINFO, CINAHL et autres bases disponibles via EBSCO
+
+Sur la plateforme EBSCOhost , le fichier d'export est mis à disposition à un lien dédié, dont l'URL vous est envoyée par messagerie électronique. Cette procédure présente l'inconvénient d'être moins directe et immédiate que les exports directs disponible sur les outils précédemment cités, toutefois elle autorise des exports plus massifs, jusqu'à **25'000** références. Le lien pour télécharger le fichier peut être envoyé à plusieurs adresses de messagerie.
+
+1. Depuis la liste de résultats que vous souhaitez exporter, cliquez sur _Partager_ > _Résultats de l'exportation : Envoyer un e-mail avec un lien permettant de télécharger les résultats exportés (jusqu'à XXX)_ (XXX remplace le nombre de résultats de votre requête).
+
+![img_EBSCO_1](img/EBSCO_export_lot_01.PNG)
+
+2. Sur la page suivante, saisissez les adresses de messagerie auxquelles le lien doit être envoyé, choisissez le format _Format RIS (par ex. CITAVI, EasyBib, EndNote, ProCite, Reference Manager, Zotero)_ si ce dernier n'est pas sélectionné par défaut, et enfin cliquez sur _Envoyer_.
+
+![img_EBSCO_2](img/EBSCO_export_lot_02.PNG)
+
+3. Vous recevrez dans un délai de quelques minutes le lien vous permettant de télécharger le fichier .RIS comportant toutes les références.
+4. Une fois extrait de l'archive .zip le fichier .RIS, il suffit de l'importer dans Zotero depuis le menu _Fichier_>_Importer..._
+
 ### LiSSa
 
 1. Modifiez le nombre le nombre de résultats par page en le passant à la valeur maximale proposée, c'est-à-dire 100 : cela vous permettra de sélectionner d'un seul clic toutes les références affichées sur la page.
@@ -85,35 +100,6 @@ CAIRN n'autorise pas la sélection multiple sur une liste de résultats, ce qui 
 4. Cliquez sur _Exporter_ > _Zotero (.RIS)_ pour générer le fichier, importé automatiquement par Zotero comme pour LiSSa.
 
 ![zotero_cairn](img/zotero_cairn.png)
-
-### PsycINFO, CINAHL et autres bases disponibles via EBSCO
-
-A la différence des outils de recherche mentionnés précédemment, l'interface de EBSCOhost ne permet pas des imports par lot de plusieurs centaines de référence.
-
-Deux options sont possibles, en fonction du nombre de références à exporter l'une ou l'autre sera plus pertinente.
-
-Pour modifier le nombre de résultats par page, cliquer sur _Options de page_ depuis une page de résultats et choisissez la valeur  appropriée dans le menu déroulant _Résultats par page_.
-
-#### Tranches de 30 références via le connecteur Zotero
-
-L'import via le connecteur de plus de 30 références ne fonctionne pas, aussi faut-il procéder par tranches de 30 si vous utilisez cette méthode, en paramétrant donc un affichage de **30 résultats par page**.
-
-Lorsque vous cliquez sur l'icône "dossier" du connecteur Zotero, il suffit ensuite de choisir l'option _Select all_ pour sélectionner les 30 résultats affichés sur la page en cours.
-
-![import_lot_zotero_ESBCO](img/EBSCO_import_lot_zotero.png)
-
-#### Tranches de 50 références via l'export de fichiers
-
-Si l'import par le connecteur échoue ou que vous avez un très grand nombre de références, procéder comme suit peut se révéler plus rapide.
-
-1. Paramétrez l'affichage de **50 résultats par page**.
-2. Depuis votre liste de résultats, cliquez à droite sur _Partager_ > _Ajouter au dossier_ > _Résultats_.
-3. Les informations affichées dans ce menu de droite sont alors actualisées. Cliquez sur _Aller à : vue des dossiers_.
-4. Sur la page suivante, cliquez sur _Exporter_ dans le menu de droite.
-5. Sur la page suivante, cochez la case _Supprimer ces objets du dossier après la sauvegarde_ afin de réinitialiser le contenu de votre dossier et de ne pas outrepasser la limite de 50 références exportables en même temps. Sélectionnez le format _Direct Export au format RIS_, puis cliquez sur _Sauvegarder_ pour lancer l'import dans zotero.
-6. Cliquez ensuite sur _Retour_ pour revenir à la liste de résultats et procéder de la même façon pour les pages suivantes.
-
-![zotero_export_ebsco_ris](img/zotero_export_ebsco_ris.PNG)
 
 
 ## Snowballing, ou enregistrer toutes les références citées par un article
