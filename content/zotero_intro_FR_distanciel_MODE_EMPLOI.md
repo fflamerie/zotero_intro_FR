@@ -1,4 +1,4 @@
-# Introduction à Zotero, voter assistant de recherche personnel : mode d'emploi classe virtuelle
+# Introduction à Zotero, votre assistant de recherche personnel : mode d'emploi classe virtuelle
 
 Pendant cette formation, nous utiliserons plusieurs bibliothèques Zotero. Nous travaillerons notamment tous ensemble dans la même **bibliothèque de groupe** Zotero. Cela nous permettra de mettre en commun les exemples et facilitera l'identification et la résolution des éventuelles difficultés que vous pourrez rencontrer.
 
