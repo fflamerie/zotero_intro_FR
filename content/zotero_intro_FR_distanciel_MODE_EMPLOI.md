@@ -1,4 +1,4 @@
-# Introduction à Zotero, votre assistant de recherche personnel : modalité en distanciel : mode d'emploi formation
+# Introduction à Zotero, voter assistant de recherche personnel : mode d'emploi classe virtuelle
 
 Pendant cette formation, nous utiliserons plusieurs bibliothèques Zotero. Nous travaillerons notamment tous ensemble dans la même **bibliothèque de groupe** Zotero. Cela nous permettra de mettre en commun les exemples et facilitera l'identification et la résolution des éventuelles difficultés que vous pourrez rencontrer.
 
@@ -6,15 +6,8 @@ Vous trouverez dans ce document les étapes à effectuer avant la formation.
 
 N'hésitez pas à me solliciter avant la formation si vous rencontrez des difficultés pour effectuer l'une des étapes décrites ci-dessous, nous pourrons ainsi résoudre votre problème individuel avant la formation.
 
-**Contact**:  _votre adresse de messagerie_
- 
- _lien visio si applicable_
 
-## Support de cours
-
-Vous souhaitez consulter le support de formation à l'avance?
-
-Vous pouvez consulter le support prévu pour la formation en présentiel. Le contenu sera globalement le même, proposé selon un rythme différent et avec d'autres activités.
+## Support de formation complet
 
 * [Introduction à Zotero, votre assistant de recherche personnel - COURS au format html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md)
 * [Introduction à Zotero, votre assistant de recherche personnel - COURS au format pdf](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.pdf)
@@ -26,6 +19,8 @@ Vous pouvez consulter le support prévu pour la formation en présentiel. Le con
 ![zotero][zotero] [Site web Zotero : Télécharger Zotero](https://www.zotero.org/download/)
 
 Vous devez installer à la fois l'application Zotero **ET** le connecteur Zotero adapté à votre navigateur (Chrome, Firefox ou Edge).
+
+**/!\ Safari n'est pas entièrement compatible avec Zotero aussi son utilisation est-elle déconseillée.**
 
 ![zotero_install](img/zotero_instal.png)
 
@@ -55,11 +50,9 @@ Si l'installation du module de traitement de texte n'a pas fonctionné, vous pou
 
 * Créez  votre compte personnel sur le site zotero.org : https://www.zotero.org/user/register
 
-* Pour rejoindre le groupe Zotero de la formation, rendez vous ensuite  à l'une des 2 adresses suivantes :
+* Pour rejoindre le groupe Zotero de la formation, rendez vous ensuite  à l'adresse suivante :
 
-https://www.zotero.org/groups/_XXX_groupe1 -> pour le groupe 1, cours du XXX
-
-https://www.zotero.org/groups/_XXX_groupe2 -> pour le groupe 2, cours du XXX
+https://www.zotero.org/groups/_NOM_DU_GROUPE
 
 * Cliquez sur _Join_.
 
@@ -100,16 +93,14 @@ Une fois la synchronisation activée, vous devriez voir apparaître une nouvelle
 
 Dans cette rubrique, devrait s'afficher la bibliothèque de groupe que vous venez de rejoindre.
 
-
 ![zotero_bib_groupe](img/zotero_bib_groupe.png)
-
 
 ## Etape 4 : enregistrez les fichiers d'exercice
 
 Nous utiliserons les 2 fichiers suivants pour les exercices au cours de la formation.
 
-* `zotero_citer_APA_MODELE.pdf` 
-* `zotero_citer_APA_EXERCICE.doc`
+* `zotero_citer_VANCOUVER_MODELE.pdf`
+* `zotero_citer_VANCOUVER_EXERCICE.doc`
 
 Aussi enregistrez-les à un emplacement auquel vous pourrez facilement les retrouver.
 
