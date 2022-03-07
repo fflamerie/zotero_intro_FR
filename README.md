@@ -42,7 +42,7 @@ Le :black_nib: [Mémo : rédaction bibliographique avec la norme Vancouver et le
 
 :point_right: Les exemples cités dans le **Mémo : rédaction bibliographique avec la norme Vancouver et le logiciel Zotero** sont disponibles :label: [au marqueur "zotero_ex_vancouver" de cette bibliothèque de groupe Zotero](https://www.zotero.org/groups/2561378/form_biblio_isped/items/tag/zotero_ex_vancouver) : enregistrez-les dans votre bibliothèque Zotero pour disposer directement de modèles de saisie!
 
-### Zotero pour une revue de littérature ou une revue systématiques
+### Zotero pour une revue de littérature 
 
 :card_file_box: Trucs et astuces pour optimiser l'utilisation de Zotero dans le contexte d'une revue de littérature ou d'une revue systématique : [à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_truc_syst.md) - [à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_truc_syst.pdf)
 
