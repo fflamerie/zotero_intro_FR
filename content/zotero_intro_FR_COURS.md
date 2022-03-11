@@ -262,7 +262,7 @@ Ajouter des documents en utilisant une autre méthode que le connecteur Zotero.
 * **Baguette magique** : utilisez ce DOI : 10.5281/zenodo.4056091
 * **Saisie manuelle** : un poster, une présentation ou tout autre document que vous devez citer et que vous ne trouvez pas en ligne
 * **A partir d'un PDF** : utilisez [ce fichier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf) = le fichier au format PDF dans le dossier `import_ex`
-* **Import de fichier** : utilisez [ce fichier RIS](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/import_file.ris) = le fichier au format RIS dans le dossier `import_ex`
+* **Import de fichier** : utilisez [ce fichier RIS](https://raw.githubusercontent.com/fflamerie/zotero_intro_FR/master/content/import_ex/import_file.ris) = le fichier au format RIS dans le dossier `import_ex`
 
 
 ### Vérifier et mettre à jour les documents que vous avez enregistrés
