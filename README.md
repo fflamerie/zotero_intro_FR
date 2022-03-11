@@ -9,28 +9,30 @@ Matériel de la formation "Introduction à Zotero, votre assistant de recherche 
 * Comprendre l'environnement de Zotero pour en optimiser et en augmenter l'usage
 
 ## Cours
-* Feuille de route : les principales étapes de la séance de formation - [TRAME à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_TRAME.md) et [TRAME à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_TRAME.pdf)
-* Support de cours complet - [COURS à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md) - [COURS à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.pdf)
+
+Support de cours :
+ * [COURS à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md) 
+ * [COURS à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.pdf)
 
 
 ## Exercices
 ### Exercice 1 : ajouter des documents dans sa bibliothèque Zotero
-  * [fichier .ris à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/import_file.ris)
+  * [fichier .ris à importer](https://raw.githubusercontent.com/fflamerie/zotero_intro_FR/master/content/import_ex/import_file.ris)
   * [fichier .pdf à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf)
  
 ### Exercice 2 : citer avec Zotero
 
 #### A partir d'exemples de documents en santé publique
   
-:1234: Style Vancouver : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_EXERCICE.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_MODELE.pdf)
+:1234: Style Vancouver : [fichier .DOC à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_EXERCICE.doc) et [fichier .PDF modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_VANCOUVER_MODELE.pdf)
 
-:capital_abcd: Style APA : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_EXERCICE.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_MODELE.pdf)
+:capital_abcd: Style APA : [fichier .DOC à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_EXERCICE.doc) et [fichier .PDF modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_APA_MODELE.pdf)
 
  #### A partir d'exemples de documents en science infirmière
  
- :1234: Style Vancouver : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_EXERCICE.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_MODELE.pdf)
+ :1234: Style Vancouver : [fichier .DOC à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_EXERCICE.doc) et [fichier .PDF modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_VANCOUVER_MODELE.pdf)
 
-:capital_abcd: Style APA : [fichier .doc à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_APA_EXERCICE.doc) et [fichier .pdf modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_APA_MODELE.pdf)
+:capital_abcd: Style APA : [fichier .DOC à modifier](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_APA_EXERCICE.doc) et [fichier .PDF modèle](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_citer_IADE_APA_MODELE.pdf)
 
 
 ## Suppléments
@@ -61,10 +63,8 @@ Le :black_nib: [Mémo : rédaction bibliographique avec la norme Vancouver et le
 
 ### Modalité à distance
 
-Lorsque cette formation est organisée à distance en visioconférence, il est demandé aux stagiaires d'installer au préalable Zotero sur leur ordinateur et de rejoindre une bibliothèque de groupe dédiée pour le stage.
+Lorsque cette formation est organisée à distance en visioconférence, il est demandé aux participants d'installer au préalable Zotero sur leur ordinateur et de rejoindre une bibliothèque de groupe dédiée pour le stage.
 
-* Fichiers envoyés en :package: [zip](https://github.com/fflamerie/zotero_intro_FR/tree/master/content/zip_distanciel) une semaine avant la formation aux stagiaires 
-* [Mode d'emploi personnalisable au format .md](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_distanciel_MODE_EMPLOI.md) - une version PDF est incluse dans le zip cité précédemment
 
 </br>
 
