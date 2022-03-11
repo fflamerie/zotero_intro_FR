@@ -1,13 +1,6 @@
 
 # Introduction à Zotero, votre assistant de recherche personnel
 
-_Ce support de formation est traduit et adapté des 2 ressources suivantes, publiées sous la licence Creative Commons CC-BY._
-
-Dingemanse, M. (2018, mars). _Collecting, organizing and citing scientific literature : An intro to Zotero_. https://speakerdeck.com/markding/collecting-organizing-and-citing-scientific-literature-an-intro-to-zotero
-
-EPFL Library Teaching Team. (2020). _Up to speed with Zotero [course notes]_. https://fbib.gitbooks.io/up-to-speed-with-zotero/content/
-
-
 L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris les discussions du forum Zotero : c'est la meilleure source d'information et d'aide!
 
 ## Objectifs
@@ -19,33 +12,16 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Sommaire
 
-<!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+<!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Objectifs](#objectifs)   
 - [Sommaire](#sommaire)   
 - [1. Introduction](#1-introduction)   
-   - [Peut-être procédez-vous de la façon suivante?](#peut-être-procédez-vous-de-la-façon-suivante)   
-   - [Zotero?](#zotero)   
 - [2. Installer et configurer Zotero](#2-installer-et-configurer-zotero)   
-   - [Comment vérifier si l'installation a fonctionné ?](#comment-vérifier-si-linstallation-a-fonctionné)   
-   - [Conseils pour configurer Zotero](#conseils-pour-configurer-zotero)   
 - [3. Constituer sa bibliothèque Zotero étape 1, ajouter des documents et des fichiers](#3-constituer-sa-bibliothèque-zotero-étape-1-ajouter-des-documents-et-des-fichiers)   
-   - [Enregistrer des documents dans votre navigateur](#enregistrer-des-documents-dans-votre-navigateur)   
-   - [Exercice 3-1, enregistrer des documents depuis les sites en ligne avec le connecteur Zotero](#exercice-3-1-enregistrer-des-documents-depuis-les-sites-en-ligne-avec-le-connecteur-zotero)   
-   - [Toutes les méthodes d'ajout](#toutes-les-méthodes-dajout)   
-   - [Exercice 3-2, essayer une autre méthode d'ajout](#exercice-3-2-essayer-une-autre-méthode-dajout)   
-   - [Vérifier et mettre à jour les documents que vous avez enregistrés](#vérifier-et-mettre-à-jour-les-documents-que-vous-avez-enregistrés)   
 - [4. Constituer sa bibliothèque Zotero étape 2, organiser le contenu](#4-constituer-sa-bibliothèque-zotero-étape-2-organiser-le-contenu)   
-   - [Outils pour organiser votre bibliothèque](#outils-pour-organiser-votre-bibliothèque)   
-   - [Exercice 4-1, démarrer avec l'organisation](#exercice-4-1-démarrer-avec-lorganisation)   
-   - [Aller plus loin](#aller-plus-loin)   
 - [5. Citer avec Zotero](#5-citer-avec-zotero)   
-   - [Les styles bibliographiques](#les-styles-bibliographiques)   
-   - [Exercice 5-1, citer dans un fichier de traitement de texte](#exercice-5-1-citer-dans-un-fichier-de-traitement-de-texte)   
-   - [Autres fonctionnalités de citation](#autres-fonctionnalités-de-citation)   
 - [6. Questions, étapes suivantes et conclusions](#6-questions-étapes-suivantes-et-conclusions)   
-   - [Etapes suivantes](#etapes-suivantes)   
-   - [Assistance](#assistance)   
 
 <!-- /MDTOC -->
 
@@ -53,105 +29,50 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## 1. Introduction
 
-### Peut-être procédez-vous de la façon suivante?
-#### Etape 01, collecter la biblio
-![pre_worflow_01](img/zotero_pre_workflow_01.png)
+### Vue d'ensemble
 
-****
+Zotero est un **logiciel de gestion bibliographique**. Lorsque l'on utilise un logiciel de ce type, les tâches suivantes sont (plus ou moins) un processus en 1 clic :
 
-#### Etape 02, organiser la biblio
-![pre_worflow_02](img/zotero_pre_workflow_02.png)
+* ajouter/importer des références bibliographiques,
+* créer une bibliographie,
+* citer au fil de l'écriture d'un mémoire, d'un article.
 
-****
+Toutes ces tâches techniques sont effectuées par le logiciel, mais il faut se souvenir que **ce dernier n'a pas de cerveau**. Cela signifie que l'utilisateur doit :
 
-#### Etape 03, citer ses sources
-![pre_worflow_03](img/zotero_pre_workflow_03.png)
+* vérifier si les informations bibliographiques sont correctes et complètes,
+* trier et organiser ses références,
+* sélectionner les références pertinentes à citer.
 
-#### Et peut-être rencontrez-vous aussi les difficultés suivantes?
+Zotero permet de résoudre les difficultés suivantes que l'on peut rencontrer lorsque l'on fait de la bibliographie sans logiciel (la liste n'est pas exhautive).
 
 * Des tas de PDF en vrac avec des noms incompréhensibles
 * Aucun lien entre vos références bibliographique, vos fichiers et vos notes
 * Le copier-coller comme meilleure option lorsque vous effectuez des citations
 * La nécessité de remettre en forme manuellement vos références
 
-Bref :
-
-![pb_zotero_anecdotes](img/zotero_pb_anecdotes.png)
-
-
-En version animée :
-
-Robles, J. S. (2019, août 26). Me when I have to go back to writing to change the style &amp; references #AcademicLife https://t.co/tFYWKZAkVa [Twitter]. _@DoctorJRo_. https://twitter.com/DoctorJRo/status/1166056789642625024
-
-
-### Zotero?
-
-#### Vue d'ensemble
-
-Zotero est un **logiciel de gestion bibliographique**. Lorsque vous utilisez un logiciel de ce type, les tâches suivantes sont (plus ou moins) un processus en 1 clic :
-
-* ajouter/importer des références bibliographiques,
-* créer une bibliographie,
-* citer au fil de l'écriture d'un mémoire, d'un article.
-
-Toutes ces tâches techniques sont effectuées par le logiciel, mais souvenez-vous que **vous êtes le cerveau**. Cela signifie que vous devez :
-
-* lire les documents ;),
-* vérifier si les informations bibliographiques sont correctes et complètes,
-* triez et organisez vos références,
-* sélectionner les références pertinentes à citer.
-
-
 ![zotero_overview](img/zotero_overview.png)
 
+#### Note concernant Safari
 
-##### Note concernant Safari
+Pourquoi Safari est-il barré ? La compatibilité avec Safari est malheureusement réduite.
 
-
-Pourquoi Safari est-il barré ? Le connecteur Zotero pour Safari 14 n'est pas encore disponible, et celui disponible pour Safari 13 est seulement en version bêta.
-
-De plus, le connecteur Zotero existant pour Safari était déjà beaucoup plus limité que celui pour Firefox ou Chrome. Par exemple, il ne prenait pas en charge les fonctionnalités avancées telles que la **détection automatique de proxy** et **l'importation automatique de RIS/BibTeX**.
-
+De plus, le connecteur Zotero existant pour Safari 13 est beaucoup plus limité que celui pour Firefox, Chrome ou Edge. Par exemple, il ne prend pas en charge les fonctionnalités avancées telles que la **détection automatique de proxy** et **l'importation automatique de RIS/BibTeX**.
 
 ![zotero][zotero] [Base de connaissance Zotero : Connecteur Zotero et Safari 13](https://www.zotero.org/support/fr/kb/safari_compatibility)
 
-#### Zotero et d'autres logiciels de gestion bibliographique
+### Zotero est un logiciel libre
 
-| Logiciel -> Caractéristique                        | ![logo BibTeX](img/refman_bibtex.png)                           | ![logo EndNote](img/refman_endnote.jpg)                                         | ![logo Mendeley](img/refman_mendeley.png)                           | ![logo ReadCube](img/refman_readcube.png)                           | ![logo Zotero](img/refman_zotero.png)                               |
-|:--------------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------:|
-| **Nom**                                            | BibTeX                                                          | EndNote                                                                         | Mendeley                                                            | ReadCube/Papers                                                     | Zotero                                                              |
-| **Licence**                                        | libre                                                           | appartient à <br/>Clarivate Analytics                                           | appartient à <br/>Elsevier                                          | appartient à <br/>Digital Science & Research, Inc.                  | libre                                                               |
-| **Coût**                                           | gratuit                                                         | prix public : environ €100, remise étudiante déduite                            | gratuit                                                             | $5/mois<br/>avec la remise étudiante : $3/mois                      | gratuit                                                             |
-| **Système d'exploitation pris en charge**          | ![](img/os_windows.png)![](img/os_mac.png)![](img/os_linux.png) | ![](img/os_windows.png)![](img/os_mac.png)                                      | ![](img/os_windows.png)![](img/os_mac.png)![](img/os_linux.png)     | ![](img/os_windows.png)![](img/os_mac.png)                          | ![](img/os_windows.png)![](img/os_mac.png)![](img/os_linux.png)     |
-| **Intégration complète avec... pour la rédaction** | LaTeX                                                           | Word<br/>LibreOffice                                                            | Word<br/>LibreOffice<br/>LaTeX <sup>#</sup>                         | Word<br/>LibreOffice<br/>Google Docs                                | Word<br/>LibreOffice<br/>LaTeX <sup>#</sup><br/>Google Docs         |
-| **Nombre de styles bibliographiques intégrés**     | indéfini - dépend de la distribution Tex                        | + de 7,000+ </br> dans le[dépôt EndNote](https://endnote.com/downloads/styles/) | + de 9'600 </br> dans le [dépôt CSL](https://www.zotero.org/styles) | + de 9'600 </br> dans le [dépôt CSL](https://www.zotero.org/styles) | + de 9'600 </br> dans le [dépôt CSL](https://www.zotero.org/styles) |
+Pourquoi est-ce important?
 
-<sup>#</sup> : par le biais de l'export et de la mise à jour automatiques d'un fichier BibTex.
+* Les utilisateurs peuvent contribuer au logiciel - voir [la liste complète des modules complémentaires à Zotero](https://www.zotero.org/support/https://www.zotero.org/support/plugins), et participer à la communauté des utilisateurs par le biais du [Forum Zotero](https://forums.zotero.org/).
+* Le développement est agile et orienté vers les utilisateurs.
+* Zotero est développé par une organisation à but non lucratif, sans intérêt financier pour vos données ; vous n'êtes pas obligé de créer un compte pour utiliser Zotero.
 
-
-#### Informations complémentaires concernant Zotero
-
-Zotero est à la fois **simple à utiliser** et **puissant**.
-
-Zotero est **compatible avec un grand nombre de ressources en ligne** : en avril 2021, plus de 500 ressources sont entièrement compatibles (c'est plus que tout autre logiciel de gestion bibliographique).
-
-Zotero est **libre**. Non seulement il est gratuit, mais c'est surtout un logiciel libre, sans aucune restriction due au contrat de licence. Cela signifie que lorsque vous quitterez l'université, vous pourrez toujours l'utiliser comme vous l'avez fait ici.
-
-Zotero a également une **grande et active communauté d'utilisateurs**. Si vous avez besoin d'aide, vous pouvez obtenir rapidement une réponse aux problèmes que vous rencontrez. Si vous avez besoin d'une fonctionnalité, son implémentation ne dépend pas de la volonté des développeurs : vous pouvez la demander (peut-être qu'un autre utilisateur l'a déjà implémentée) ou la faire vous-même.
-
-Zotero est **modulaire** : des fonctionnalités supplémentaires peuvent être ajoutées et partagées par le biais d'extensions.
-
-![zotero][zotero] [Documentation Zotero : Plugins (page en anglais)](https://www.zotero.org/support/fr/plugins)
-
-Enfin, et même si ce sujet n'est pas abordé au cours de cette formation, il est important de savoir que Zotero est **fait pour le travail collaboratif**, plus que tout autre logiciel de gestion bibliographique. Il autorise un nombre illimité de membres et un nombre illimité d'articles pour un nombre illimité de bibliothèques de groupe. Il y a cependant des limitations d'espace de stockage.
-
-Toutes les raisons ci-dessus expliquent pourquoi nous avons choisi de nous concentrer sur Zotero.
-
-![zotero][zotero] [Blog Zotero francophone: Pourquoi Zotero? (page traduite du site zotero.org)](https://zotero.hypotheses.org/1998)
-
+Vous trouverez davantage de détails et des exemples concernant cette questions dans le billet du blog Zotero francophone : [Pourquoi Zotero?](https://zotero.hypotheses.org/1998)
 
 ## 2. Installer et configurer Zotero
 
+### Installer Zotero
 ![zotero][zotero] [Site web Zotero : Télécharger Zotero](https://www.zotero.org/download/)
 
 Vous devez installer à la fois l'application Zotero **ET** le connecteur Zotero adapté à votre navigateur (Chrome, Firefox ou Edge).
@@ -180,16 +101,21 @@ Si l'installation du module de traitement de texte n'a pas fonctionné, vous pou
 
 ![zotero][zotero] [Documentation Zotero : Préférences](https://www.zotero.org/support/fr/preferences)
 
-### Conseils pour configurer Zotero
+### Configuration minimale des préférences
 
 Voici quelques recommandations pour démarrer. Tous les paramétrages sont accessibles depuis les _Préférences_ de Zotero.
 
-* Onglet **_Générales_**
+#### Onglet "Générales"
 
-  * _Faire une capture automatique de la page lors de la création de documents à partir de pages Web_ : décochez cette case pour éviter d'encombrer votre bibliothèque avec des captures systématiques de toutes les pages Web que vous enregistrez.
-  * _Ajouter automatiquement aux documents des marqueurs à partir des mots-clés fournis_ : décochez cette case pour éviter de parasiter votre liste de marqueurs personnels avec tous les mots-clés associés aux documents que vous enregistrez. Variables en fonction de la source dont ils proviennent (mots-clés auteur, indexation sujet des catalogues de bibliothèque, etc.), ces termes accumulés peuvent en effet finir par produire une liste de termes redondants (synonymes, variantes diverses d'un même mot), difficile à exploiter de ce fait..
+Rubrique "Gestion des fichiers"
 
-* Onglet **_Avancées_ > _Générales_**
+* Décochez la case "**Faire une capture automatique de la page lors de la création de documents à partir de pages Web**", pour éviter d'encombrer votre bibliothèque avec des captures de toutes les pages Web que vous enregistrerez.
+* Cochez la case "**Joindre automatiquement les fichiers PDF associés lors de l'enregistrement d'un document**", pour récupérer automatiquement les PDFs des articles lorsque vous êtes sur le site d'un éditeur ou tout autre site sur lequel le PDF est présent. Si vous êtes sur PubMed, Scopus ou une autre base de données bibliographiques, il faudra suivre le lien vers le site de l'éditeur pour enregistrer la référence bibliographique + le PDF de l'article. Et il faudra bien sûr, s'il s'agit d'une ressource payante, que votre institution soit abonnée.
+* Cochez la case "**Récupérer automatiquement les métadonnées des PDF**".
+
+#### Onglet  "Avancées"
+
+Rubrique "Générales"
 
 Dans la rubrique _OpenURL_ ouvrez le menu déroulant et naviguez dans la liste géographique pour sélectionner l'Université de Bordeaux.
 
@@ -202,12 +128,45 @@ Il vous suffira pour cela de cliquer sur _Recherche dans la bibliothèque_, acce
 
 ![zotero][zotero] [Documentation Zotero : Menu Localiser](https://www.zotero.org/support/fr/locate)
 
+
+#### Onglet "Synchronisation"
+
+Il n'est pas nécessaire de se créer un compte en ligne ni d'activer la synchronisation pour utiliser Zotero. C'est en revanche indispensable pour les deux fonctionnalités suivantes :
+
+* la **synchronisation** de bibliothèques Zotero sur plusieurs appareils (une ordinateur professionnel et un ordinateur personnel par exemple) et sur le serveur en ligne Zotero,
+* les **groupes** pour créer des bibliothèques partagées.
+
+Pour faire apparaître une bibliothèque de groupe dont vous êtes membre dans Zotero, vous devez configurer la synchronisation Zotero.
+
+Ces paramètres sont accessibles depuis les _Préférences_ > _Synchronisation_.
+
+Pour démarrer, nous nous en tenons aux paramètres suivants, après la saisie de votre nom d'utilisateur et de votre mot de passe.
+
+##### Synchronisation des données
+
+Cochez _Synchroniser automatiquement_.
+
+##### Synchronisation des fichiers
+
+* Ne cochez pas _Synchroniser les fichiers joints de ma bibliothèque en utilisant..._
+* Cochez _Synchroniser les fichiers joints dans les bibliothèques en utilisant le stockage de Zotero_.
+
+![zotero_pref_sync](img/zotero_pref_sync.png)
+
+![zotero][zotero] [Documentation Zotero : Synchronisation](https://www.zotero.org/support/fr/sync)
+
+Une fois la synchronisation activée, vous devriez voir apparaître une nouvelle rubrique "Bibliothèques de groupe" dans Zotero, en-dessous de "Ma bibliothèque".
+
+Dans cette rubrique, devraient s'afficher les bibliothèques de groupe dont vous êtes membre.
+
+![zotero_bib_groupe](img/zotero_bib_groupe.png)
+
+
 ## 3. Constituer sa bibliothèque Zotero étape 1, ajouter des documents et des fichiers
 
 ![zotero_collect](img/zotero_collect.png)
 
 Une référence bibliographique, un **document** dans votre bibliothèque Zotero, est constituée d'informations, de **métadonnées**, décrivant un article, un livre, etc. et vous permettant de le retrouver facilement par la suite. Zotero structure les métadonnées que vous collectez sur les documents. Lorsque vous citez vos documents avec Zotero, il génère alors des bibliographies cohérentes. Zotero vous permet également de stocker des fichiers numériques avec les références, sous forme de **pièces jointes**.
-
 
 ### Enregistrer des documents dans votre navigateur
 
@@ -368,27 +327,36 @@ Nous prenons **10 minutes** pour cette activité.
 * Pouvez-vous créer différents types de notes ?
 * Quel usage feriez-vous des notes
 
+### Conserver ou non les marqueurs enregistrés automatiquement?
+
+Par défaut, Zotero enregistre automatiquement les mots-clés associés au document dans la base à partir de laquelle vous l'avez enregistré  : indexation Rameau dans le Sudoc, mots-clés auteur dans les sites d'éditeur et les bases de données bibliographiques, indexation contrôlée dans les bases de données bibliographiques. Tous ces termes hétérogènes accumulés peuvent finir par produire une liste de termes redondants (synonymes, variantes diverses d'un même mot) difficile à exploiter, et qui vienne parasiter votre liste de marqueurs personnels.
+
+Vous pouvez désactiver cet enregistrement depuis les _Préférences_ > _Générales_ > _Divers_ > _Ajouter automatiquement aux documents des marqueurs à partir des mots-clés fournis_.
+
+Notez toutefois que même en décochant cette cas vous enregistrerez toujours les mots-clés associés lorsque vous ajoutez des documents via un **import de fichier** et non via le navigateur. Décocher cette case ne désactive pas l'import du champ _keywords_ (ou équivalent) présent dans un fichier bibliographique. Il y a donc de fortes chances que vous retrouviez tout de même des marqueurs ajoutés automatiquement dans votre bibliothèque. Par ailleurs, il est parfois utile de se référer aux mots-clés auteur ou aux indexations contrôlées d'une base de données.
+
+Pour conserver une liste de marqueurs personnels propre, facile à exploiter et bien distincte des marqueurs ajoutés automatiquement, la meilleure option est par conséquent de **préfixer** ses marqueurs personnels au moyen d'un signe typographique tel que le tiret bas `_`. Vos marqueurs personnels seront ainsi non seulement facilement identifiables, mais toujours présentés en premier dans le sélecteur de marqueurs.
+
 ### Aller plus loin
 
 💡 **Conseil : laissez Zotero travailler pour vous**
 
 N'oubliez pas que le classement des articles dans les collections, l'ajout de marqueurs, etc. nécessitent une saisie manuelle et prennent du temps. **Les recherches sauvegardées** sont un excellent moyen de gagner du temps et de l'efficacité, en utilisant automatiquement les informations que vous avez récupérées et ajoutées pour chaque document.
 
-#### S'inspirer de ce que font les autres
+Les recherches sauvegardées prennent en charge une syntaxe relativement riche.
+Pour retrouver toutes les références pour lesquelles un champ est vide, par exemple les références sans résumé, il suffit de créer une recherche sur le modèle suivant :
 
-![zotero_org_example](img/zotero_organize_ex.png)
+```
+Résumé -- Ne contient pas -- %
+```
 
+### Ressources
 
-Billets du blog Zotero francophone
+![zotero][zotero] [Documentation Zotero : Détection des doublons](https://www.zotero.org/support/fr/duplicate_detection)
 
-* [Comment organiser sa bibliothèque?](https://zotero.hypotheses.org/756)
-* [Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/3298)
+![zotero][zotero] [Documentation Zotero : Collections et marqueurs](https://www.zotero.org/support/fr/collections_and_tags)
 
-#### Documentation complète
-
-![zotero][zotero] [Documentation Zotero : Collections  et marqueurs](https://www.zotero.org/support/fr/collections_and_tags)
-
-![zotero][zotero]  [Documentation Zotero : Rechercher](https://www.zotero.org/support/fr/searching)
+![zotero][zotero] [Documentation Zotero : Rechercher](https://www.zotero.org/support/fr/searching)
 
 ![zotero][zotero] [Documentation Zotero : Tri](https://www.zotero.org/support/fr/sorting)
 
@@ -396,7 +364,14 @@ Billets du blog Zotero francophone
 
 ![zotero][zotero] [Documentation Zotero : Documents connexes](https://www.zotero.org/support/fr/related)
 
-![zotero][zotero]  [Documentation Zotero : Détection des doublons](https://www.zotero.org/support/fr/duplicate_detection)
+Billets du blog Zotero francophone :
+
+* [Comment organiser sa bibliothèque?](https://zotero.hypotheses.org/756)
+* [Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/)
+
+Exemples d'organisations de bibliothèque Zotero par des utilisateurs : [ressources associées au billet "Comment organiser sa bibliothèque?" dans la bibliothèque de groupe zfrancophone](zotero://select/groups/2233096/collections/SZEXH6L3)
+
+![zotero][zotero] [Forum Zotero : How/ Why do you use Zotero?](https://forums.zotero.org/discussion/comment/340945#Comment_340945)
 
 ## 5. Citer avec Zotero
 
@@ -418,14 +393,16 @@ Un style bibliographique applique des règles concernant les métadonnées à af
 
 Il est possible de modifier ou de créer son propre style bibliographique, mais nous n'abordons pas ce sujet dans cette formation.
 
-#### Styles bibliographiques à utiliser
+#### Styles bibliographiques de référence
 
-Deux styles bibliographiques peuvent être appropriés pour vos travaux académiques. Vos encadrants vous indiqueront lequel utiliser et dans quelle langue. **Vancouver** est le plus couramment utilisé.
+Deux styles bibliographiques peuvent être appropriés pour vos travaux académiques. En sciences humaines et sociales, **APA** est plus fréquemment utilisé que Vancouver.
 
 * [American Psychological Association (APA) 7th edition](https://www.zotero.org/styles/apa)
 * [Vancouver](https://www.zotero.org/styles/vancouver)
 
 **Ces 2 styles sont intégrés dans Zotero et vous n'avez aucune action complémentaire à effectuer pour les utiliser.**
+
+👉 Le poste de commande est l'onglet _Citer_ des _Préférences_ de Zotero.
 
 ##### Style Vancouver
 
@@ -467,15 +444,12 @@ Vous y trouverez notamment, pour chaque type de document :
 
 👉 La plupart des consignes sont valables également pour le style APA.
 
-</br>
-
-Pour gérer les styles bibliographiques dans Zotero, allez dans les _Préférences_ > _Citer_ > _Styles_.
 
 ![zotero][zotero] [Documentation Zotero : Les styles bibliographiques](https://www.zotero.org/support/fr/styles)
 
 ![zotero][zotero] [Documentation Zotero : Préférences > Citer](https://www.zotero.org/support/fr/preferences/cite)
 
-### Exercice 5-1, citer dans un fichier de traitement de texte
+### Exercice 5-1, utiliser le module de traitement texte de Zotero
 
 Nous prenons **20 minutes** pour faire cette activité ensemble.
 
