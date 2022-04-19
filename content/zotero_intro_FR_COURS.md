@@ -109,8 +109,8 @@ Voici quelques recommandations pour démarrer. Tous les paramétrages sont acces
 
 Rubrique "Gestion des fichiers"
 
-* Décochez la case "**Faire une capture automatique de la page lors de la création de documents à partir de pages Web**", pour éviter d'encombrer votre bibliothèque avec des captures de toutes les pages Web que vous enregistrerez.
-* Cochez la case "**Joindre automatiquement les fichiers PDF associés lors de l'enregistrement d'un document**", pour récupérer automatiquement les PDFs des articles lorsque vous êtes sur le site d'un éditeur ou tout autre site sur lequel le PDF est présent. Si vous êtes sur PubMed, Scopus ou une autre base de données bibliographiques, il faudra suivre le lien vers le site de l'éditeur pour enregistrer la référence bibliographique + le PDF de l'article. Et il faudra bien sûr, s'il s'agit d'une ressource payante, que votre institution soit abonnée.
+* Décochez la case "**Faire une capture automatique de la page lors de la création de documents à partir de pages Web**", pour éviter d'encombrer votre bibliothèque avec des captures de toutes les pages Web à partir desquelles vous enregistrerez des documents dans votre bibliothèque Zotero.
+* Cochez la case "**Joindre automatiquement les fichiers PDF associés lors de l'enregistrement d'un document**", pour récupérer automatiquement les PDFs des articles lorsque vous êtes sur le site d'un éditeur ou tout autre site sur lequel le PDF est présent. Si vous êtes sur PubMed, Scopus ou une autre base de données bibliographiques, il faudra suivre le lien vers le site de l'éditeur pour enregistrer la référence bibliographique et le PDF de l'article en même temps. Et il faudra bien sûr, s'il s'agit d'une ressource payante, que votre institution soit abonnée.
 * Cochez la case "**Récupérer automatiquement les métadonnées des PDF**".
 
 #### Onglet  "Avancées"
@@ -148,7 +148,7 @@ Cochez _Synchroniser automatiquement_.
 
 ##### Synchronisation des fichiers
 
-* Ne cochez pas _Synchroniser les fichiers joints de ma bibliothèque en utilisant..._
+* Décochez _Synchroniser les fichiers joints de ma bibliothèque en utilisant..._, sauf si vous avez vous-même coché cette case et paramétré le service à utiliser pour la synchronisation de vos fichiers joints.
 * Cochez _Synchroniser les fichiers joints dans les bibliothèques en utilisant le stockage de Zotero_.
 
 ![zotero_pref_sync](img/zotero_pref_sync.png)
