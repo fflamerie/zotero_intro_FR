@@ -16,11 +16,11 @@ Support de cours :
 
 
 ## Exercices
-### Exercice 1 : ajouter des documents dans sa bibliothèque Zotero
+### Exercice : Autres méthodes pour ajouter des documents
   * [fichier .ris à importer](https://raw.githubusercontent.com/fflamerie/zotero_intro_FR/master/content/import_ex/import_file.ris)
   * [fichier .pdf à importer](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/import_ex/kxy038.pdf)
  
-### Exercice 2 : citer avec Zotero
+### Exercice : Citer avec Zotero
 
 #### A partir d'exemples de documents en santé publique
   
