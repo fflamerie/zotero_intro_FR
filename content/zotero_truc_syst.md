@@ -2,6 +2,7 @@
 
 <!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
+- [Créer une bibliothèque de groupe pour votre revue](#créer-une-bibliothèque-de-groupe-pour-votre-revue)   
 - [Enregistrer les références par import de fichier plutôt que par le connecteur Zotero (bouton "Save to Zotero" dans votre navigateur)](#enregistrer-les-références-par-import-de-fichier-plutôt-que-par-le-connecteur-zotero-bouton-save-to-zotero-dans-votre-navigateur)   
    - [PubMed](#pubmed)   
    - [Scopus](#scopus)   
@@ -12,11 +13,16 @@
 - [Snowballing, ou enregistrer toutes les références citées par un article](#snowballing-ou-enregistrer-toutes-les-références-citées-par-un-article)   
 - [Organiser sa bibliothèque avec des marqueurs](#organiser-sa-bibliothèque-avec-des-marqueurs)   
    - [Créer un marqueur dans un document et lui attribuer une couleur](#créer-un-marqueur-dans-un-document-et-lui-attribuer-une-couleur)   
+- [Fusionner les doublons par lot avec Zotero Duplicates Merger](#fusionner-les-doublons-par-lot-avec-zotero-duplicates-merger)   
 - [Automatiser et optimiser la recherche du texte intégral](#automatiser-et-optimiser-la-recherche-du-texte-intégral)   
    - [Configuration OpenURL](#configuration-openurl)   
    - [Moteurs de recherche intégrés à Zotero](#moteurs-de-recherche-intégrés-à-zotero)   
 
 <!-- /MDTOC -->
+
+## Créer une bibliothèque de groupe pour votre revue
+
+Même si vous travaillez seul, il est préférable de créer une bibliothèque de groupe pour votre revue de littérature, cela facilitera notamment **la gestion des doublons**. La recherche de doublons s'exécute toujours sur tout le contenu d'une bibliothèque, il n'est pas possible de la lancer seulement sur une partie de votre bibliothèque (une collection par exemple).
 
 ## Enregistrer les références par import de fichier plutôt que par le connecteur Zotero (bouton "Save to Zotero" dans votre navigateur)
 
@@ -33,8 +39,6 @@ Voici comment procéder dans différents outils de recherche bibliographique, à
 3. Enregistrez le fichier **.nbib** ainsi généré sur votre ordinateur.
 4. Allez ensuite dans Zotero, dans le menu _Fichier_ >_Importer..._ et sélectionnez ce fichier **.nbib**.
 5. Suivez les étapes, les références sont automatiquement importées dans votre bibliothèque.
-
-Plus d'infos : [Cours "Introduction à Zotero, votre assistant de recherche personnel" > section " Constituer sa bibliothèque Zotero étape 1, ajouter des documents et des fichiers"](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md#3-constituer-sa-biblioth%C3%A8que-zotero-%C3%A9tape-1-ajouter-des-documents-et-des-fichiers)
 
 ### Scopus
 
@@ -59,7 +63,14 @@ A partir d'une liste de résultats, cliquez directement sur _Export_ pour affich
 * puis les références à exporter,
 * et les champs à exporter.
 
-Le **format RIS** permet une détection et un import automatiques du fichier dans Zotero. Il peut en revanche s'avérer trop limité si vous souhaitez exporter des champs complémentaires, sélectionnés avec l'option _Custom selection_. Il convient alors de privilégier le format _Plain Text File_ et d'importer le fichier ainsi généré de la même façon que pour PubMed.
+Le **format RIS** permet une détection et un import automatiques du fichier dans Zotero.
+
+Il présente toutefois les limitations suivantes :
+
+* les titres de revue sont entièrement en majuscules, ce qui contraint à de fastidieuses corrections du champ "Publication" pour conserver seulement les majuscules initiales,
+* il ne permet pas d'exporter des champs complémentaires, sélectionnés avec l'option _Custom selection_.
+
+Il convient par conséquent de privilégier le format ** _Plain Text File_** et d'importer le fichier ainsi généré de la même façon que pour PubMed.
 
 Une limitation à **1'000 références** s'applique pour l'export. Comme pour Scopus, il faut procéder par petits lots successifs si vous souhaitez exporter plus de 1'000 références.
 
@@ -148,13 +159,27 @@ Pourquoi privilégier les marqueurs plutôt que les collections?
 * **Lisibilité** : grâce à l'onglet "Marqueurs" du volet de droite vous visualisez immédiatement tous les marqueurs associés à un document ; grâce aux **marqueurs colorés** vous visualisez rapidement tous les documents associés à un marqueur.
 * **Portabilité** : les marqueurs font partie des informations bibliographiques du document et sont ainsi, par exemple, exportés au même titre que toutes les autres informations bibliographiques lorsque vous exportez des documents dans un fichier au format .ris, . csv, etc. Les collections et les recherches enregistrées relèvent en revanche de **l'interface** de votre bibliothèque, l'information du classement dans une collection n'est pas enregistrée en tant qu'information bibliographique du document.
 
-Plus d'infos : [Cours "Introduction à Zotero, votre assistant de recherche personnel" > section "Constituer sa bibliothèque Zotero étape 2, organiser le contenu"](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_intro_FR_COURS.md#4-constituer-sa-biblioth%C3%A8que-zotero-%C3%A9tape-2-organiser-le-contenu)
-
 ### Créer un marqueur dans un document et lui attribuer une couleur
 
 ![gif_ajout_tag](img/ZoteroTags.gif)
 
 _Source : [Mini-site Zotero Lausanne > Tutoriel Zotero](https://lausannecitationstyle.github.io/support/3.html)_
+
+## Fusionner les doublons par lot avec Zotero Duplicates Merger
+
+Lorsque vous affichez les doublons potentiels repérés par Zotero en cliquant sur la collection _Doublons_, vous devez ensuite valider individuellement chaque doublon pour fusionner les enregistrements concurrents. Ce fonctionnement est optimal pour **éviter les faux positifs**, c'est-à-dire fusionner automatiquement des documents qui ne sont pas des doublons. Il peut toutefois être pénalisant dans le cadre d'une revue de littérature, lorsque vous effectuez des imports par lot depuis différentes bases de données comme décrit précédemment. Vous enregistrez alors des volumes importants de références, avec potentiellement un nombre important de doublons, du fait des recouvrements entre les bases de données interrogées. Le risque de faux positif est par ailleurs quasiment nul.
+
+Vous pouvez alors recourir avec profit à la fonctionnalité de dédoublonnage par lot du module complémentaire [Zotero Duplicates Merger](https://github.com/frangoud/ZoteroDuplicatesMerger). Zotero Duplicates Merger ajoute en effet une option de fusion des doublons par lot ou _Bulk merge_ à la fusion de doublons manuelle ou _Smart merge_.
+
+Voici comment l'activer.
+
+1. Dans la collection _Doublons_ de votre bibliothèque Zotero, sélectionnez tous les documents affichés dans le panneau central de Zotero.
+2. Affichez le menu contextuel par un clic-droit sur cette sélection.
+3. Choisissez l'option _Duplicates Merger_ > _Bulk merge duplicates_.
+
+![copie_ecran_zotero_duplicate_merger](img/zotero_duplicate_merger.png)
+
+Notez que Zotero Duplicates Merger offre d'autres fonctionnalités tels qu'un bouton de raccourci pour fusionner les documents ou la définition du critère de choix de la version du document à conserver comme document maître lors de la fusion (la plus ancienne, la plus récente ou celle avec le nom de premier auteur le plus long).
 
 ## Automatiser et optimiser la recherche du texte intégral
 
