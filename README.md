@@ -48,6 +48,8 @@ Le :black_nib: [Mémo : rédaction bibliographique avec la norme Vancouver et le
 
 :card_file_box: Trucs et astuces pour optimiser l'utilisation de Zotero dans le contexte d'une revue de littérature : [à consulter en ligne en html](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_truc_syst.md) - [à télécharger en PDF](https://github.com/fflamerie/zotero_intro_FR/blob/master/content/zotero_truc_syst.pdf)
 
+:bookmark_tabs: Billet du blog Zotero francophone : [Zotero pour les revues de littérature](https://zotero.hypotheses.org/4359)
+
 ### Gestion des PDF
 
 Être ou ne pas être dans Zotero : quel choix pour vos PDF et autres fichiers joints ? - [schéma au format .odg](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.odg) et [schéma au format .pdf](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.pdf)
