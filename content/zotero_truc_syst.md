@@ -169,7 +169,7 @@ _Source : [Mini-site Zotero Lausanne > Tutoriel Zotero](https://lausannecitation
 
 Lorsque vous affichez les doublons potentiels repérés par Zotero en cliquant sur la collection _Doublons_, vous devez ensuite valider individuellement chaque doublon pour fusionner les enregistrements concurrents. Ce fonctionnement est optimal pour **éviter les faux positifs**, c'est-à-dire fusionner automatiquement des documents qui ne sont pas des doublons. Il peut toutefois être pénalisant dans le cadre d'une revue de littérature, lorsque vous effectuez des imports par lot depuis différentes bases de données comme décrit précédemment. Vous enregistrez alors des volumes importants de références, avec potentiellement un nombre important de doublons, du fait des recouvrements entre les bases de données interrogées. Le risque de faux positif est par ailleurs quasiment nul.
 
-Vous pouvez alors recourir avec profit à la fonctionnalité de dédoublonnage par lot du module complémentaire [Zotero Duplicates Merger](https://github.com/frangoud/ZoteroDuplicatesMerger). Zotero Duplicates Merger ajoute en effet une option de fusion des doublons par lot ou _Bulk merge_ à la fusion de doublons manuelle ou _Smart merge_.
+Vous pouvez alors recourir avec profit à la fonctionnalité de dédoublonnage par lot du module complémentaire [Zotero Duplicates Merger](https://github.com/frangoud/ZoteroDuplicatesMerger). Zotero Duplicates Merger ajoute en effet une option de fusion des doublons par lot ou _Bulk merge_ .
 
 Voici comment l'activer.
 
@@ -178,6 +178,8 @@ Voici comment l'activer.
 3. Choisissez l'option _Duplicates Merger_ > _Bulk merge duplicates_.
 
 ![copie_ecran_zotero_duplicate_merger](img/zotero_duplicate_merger.png)
+
+⚠️L'option _Smart merge items_ a un comportement bien différent. Avec cette option, vous fusionnez **TOUS** les documents sélectionnés au profit d'un seul. Il faut donc veiller à sélectionner la bonne option dans le menu contextuel.
 
 Notez que Zotero Duplicates Merger offre d'autres fonctionnalités tels qu'un bouton de raccourci pour fusionner les documents ou la définition du critère de choix de la version du document à conserver comme document maître lors de la fusion (la plus ancienne, la plus récente ou celle avec le nom de premier auteur le plus long).
 
