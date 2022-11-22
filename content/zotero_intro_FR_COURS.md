@@ -9,7 +9,6 @@ L'icône ![zotero][zotero] signale les liens vers la documentation Zotero et les
 * Rédiger un document en générant automatiquement les citations et la bibliographie en fonction des normes Vancouver et/ou APA
 * Comprendre l'environnement de Zotero pour en optimiser et en augmenter l'usage
 
-
 ## Sommaire
 
 <!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
@@ -439,7 +438,7 @@ Vous y trouverez notamment, pour chaque type de document :
 
 ![zotero][zotero] [Documentation Zotero : Les styles bibliographiques](https://docs.zotero-fr.org/styles)
 
-![zotero][zotero] [Documentation Zotero : Préférences : Cite](https://docs.zotero-fr.org/cite/)
+![zotero][zotero] [Documentation Zotero : Préférences : Citer](https://docs.zotero-fr.org/cite/)
 
 ### Exercice "Citer avec Zotero"
 
@@ -512,6 +511,25 @@ Les bibliothèques de groupe sont distinctes de votre "Ma bibliothèque" personn
 
 ![zotero][zotero] [Documentation Zotero :  Les groupes Zotero](https://docs.zotero-fr.org/groups)
 
+#### Annoter vos PDF avec Zotero
+
+Depuis sa version 6 publiée en mars 2022, Zotero intègre un lecteur de PDF, associé à un nouvel éditeur de notes. Ces nouvelles fonctionnalités vous permettent notamment d'ajouter les étapes suivantes à votre flux de travail avec Zotero.
+
+* Ouvrir les PDF dans un lecteur intégré à la fenêtre principale de Zotero, dans une interface à onglets.
+* Modifier les informations bibliographiques d’un document tout en visualisant le PDF associé.
+* Annoter les PDF avec des surlignages et des annotations d'image et d'extraits de texte, **en intégrant systématiquement les informations de citation**.
+* **Ajouter les annotations dans des notes Zotero** : créer automatiquement une note à partir de toutes les annotations d'un PDF, ou ajouter des annotations provenant de différents PDF à une même note.
+* **Citer depuis les annotations** :  le nouveau bouton "Add Note" dans le module de traitement de texte insère le contenu d'une note Zotero et les citations associées.
+
+📑Les 3 mini-tutoriels suivants sur Twitter vous aideront à prendre en main ces fonctionnalités.
+
+Bilal, M. (2022, août 30). Zotero 101 : A step-by-step guide with visuals [how to take notes and annotate PDFs in Zotero]. Twitter. https://twitter.com/MushtaqBilalPhD/status/1564522758696013824
+
+Bilal, M. (2022, septembre 11). Zotero 101 : A step-by-step guide with visuals [how to make groups and do « collaborative annotations. »]. Twitter. https://twitter.com/MushtaqBilalPhD/status/1568829219383218179
+
+Bilal, M. (2022, octobre 17). Zotero 101 : A step-by-step guide with visuals [how to supercharge your writing using Zotero’s Note Editor]. Twitter. https://twitter.com/MushtaqBilalPhD/status/1581927147685687297
+
+![zotero][zotero] [Documentation Zotero : Le lecteur PDF et l'éditeur de notes de Zotero](https://docs.zotero-fr.org/pdf_reader)
 
 #### Modules complémentaires
 
