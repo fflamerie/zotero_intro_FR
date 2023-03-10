@@ -65,12 +65,12 @@ A partir d'une liste de résultats, cliquez directement sur _Export_ pour affich
 
 Le **format RIS** permet une détection et un import automatiques du fichier dans Zotero.
 
-Il présente toutefois les limitations suivantes :
+⚠️ Il présente toutefois les limitations suivantes :
 
 * les titres de revue sont entièrement en majuscules, ce qui contraint à de fastidieuses corrections du champ "Publication" pour conserver seulement les majuscules initiales,
 * il ne permet pas d'exporter des champs complémentaires, sélectionnés avec l'option _Custom selection_.
 
-Il convient par conséquent de privilégier le format ** _Plain Text File_** et d'importer le fichier ainsi généré de la même façon que pour PubMed.
+💡 **Il convient par conséquent de privilégier le format _Plain Text File_** et d'importer le fichier ainsi généré de la même façon que pour PubMed.
 
 Une limitation à **1'000 références** s'applique pour l'export. Comme pour Scopus, il faut procéder par petits lots successifs si vous souhaitez exporter plus de 1'000 références.
 
