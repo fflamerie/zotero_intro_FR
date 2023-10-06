@@ -53,7 +53,7 @@ Dans la barre de menu grisée juste au-dessus de la liste de résultats :
 4. Une boîte de dialogue s'affiche, choisissez _Ouvir avec_ > _Zotero_.
 5. Les références sont automatiquement importées dans votre bibliothèque.
 
-Lorsque vous incluez le résumé, une limitation à **2'000 références** s'applique pour l'export. Si vous souhaitez exporter plus de 2'000 références, utilisez les filtres par date pour créer des lots par année de publication. Vous serez ainsi sûr d'inclure tous les résultats dans vos exports.
+Lorsque vous incluez le résumé, une limitation à **20'000 références** s'applique pour l'export. Si vous souhaitez exporter plus de 20'000 références, utilisez les filtres par date pour créer des lots par année de publication. Vous serez ainsi sûr d'inclure tous les résultats dans vos exports.
 
 ### Web of Science Core Collection
 
