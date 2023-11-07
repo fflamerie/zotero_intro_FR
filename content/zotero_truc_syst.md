@@ -11,6 +11,8 @@
    - [LiSSa](#lissa)   
    - [CAIRN](#cairn)   
 - [Snowballing, ou enregistrer toutes les références citées par un article](#snowballing-ou-enregistrer-toutes-les-références-citées-par-un-article)   
+   - [Avec Web of Science ou Scopus](#avec-web-of-science-ou-scopus)   
+   - [Avec Citation Chaser](#avec-citation-chaser)   
 - [Organiser sa bibliothèque avec des marqueurs](#organiser-sa-bibliothèque-avec-des-marqueurs)   
    - [Créer un marqueur dans un document et lui attribuer une couleur](#créer-un-marqueur-dans-un-document-et-lui-attribuer-une-couleur)   
 - [Fusionner les doublons par lot avec Zotero Duplicates Merger](#fusionner-les-doublons-par-lot-avec-zotero-duplicates-merger)   
@@ -117,7 +119,11 @@ CAIRN n'autorise pas la sélection multiple sur une liste de résultats, ce qui 
 
 Le _snowballing_ fait partie des méthodes de recherche bibliographique utilisables pour une revue de littérature ; elle peut être requise.
 
-Certaines bases de données comme le **Web of Science Core Collection** ou **Scopus** permettent d'enregistrer par lot toutes les références citées par un article. Combiné à la fonctionnalité de **Connexe** de Zotero, cela permet de retrouver rapidement dans une bibliothèque Zotero tous les articles cités par un article donné, et de restituer le lien de citation.
+Nous vous présentons ici des outils permettant d'enregistrer automatiquement toutes les références citées par un article. Combiné à la fonctionnalité de **Connexe** de Zotero, cela permet de retrouver rapidement dans une bibliothèque Zotero tous les articles cités par un article donné, et de restituer le lien de citation.
+
+Notez que vous pouvez avec ces mêmes outils retrouver et enregistrer non seulement les **références citées**, mais également les **références citantes**, c'est-à-dire les références des articles ultérieurs qui citent l'article considéré.
+
+### Avec Web of Science ou Scopus
 
 **Les références citées non indexées** dans la base de données sont traitées différemment dans Scopus et Web of Science.
 
@@ -139,6 +145,26 @@ Voici comment procéder à partir de Scopus, la procédure est similaire pour le
 3. Un lien réciproque est créé entre l'article et chacune des références qu'il cite. Ces liens sont affichés dans l'onglet _Connexe_ ; ils vous permettent de naviguer de l'article aux références qu'il cite et inversement.
 
  ![snowballing_3](img/SCOPUS_ref_citees_03.png)
+
+### Avec Citation Chaser
+
+[Citation Chaser](https://estech.shinyapps.io/citationchaser/), développé et mis à disposition par des chercheurs en écologie, présentent de nombreux avantages.
+
+* Son utilisation est **libre et gratuite**.
+* La base de données d'indexation des citations utilisée est la base de données non commerciale **Lens.org**, offrant une couverture plus large que celle de Scopus ou du Web of Science puisqu'elle combine Microsoft Academic, PubMed, CORE et Crossref.
+* La recherche et l'export des références citées et citantes est très simple et rapide à effectuer, comme le montre les captures d'écran ci-dessous.
+
+1.  L'onglet  _Article input_ permet de charger les articles à considérer, à partir de la saisie d'un de leurs identifiants (PMID, DOI, etc. ), d'un fichier .csv ou d'un fichier .ris.
+
+![Interface de chargement des articles source dans Citation Chaser](img/CChaser_01_ArticleInput.png)
+
+2.  Les onglets _References_ et _Citations_ permettent ensuite de rechercher et exporter au format .ris respectivement les références citées et les références citantes.
+
+![Interface de recherche et d'export des références citantes dans Citation Chaser](img/CChaser_02_citations.png)
+
+3. Les onglets _Analysis_ et _Network_ fournissent des fonctionnalités complémentaires d'analyse et de visualisation.
+
+Haddaway, N. R., Grainger, M. J., Gray, C. T. 2021. citationchaser: An R package and Shiny app for forward and backward citations chasing in academic searching. doi: [10.5281/zenodo.4543513](https://doi.org/10.5281/zenodo.4543513)
 
 ## Organiser sa bibliothèque avec des marqueurs
 
