@@ -9,7 +9,6 @@
    - [Web of Science Core Collection](#web-of-science-core-collection)   
    - [PsycINFO, CINAHL et autres bases disponibles via EBSCO](#psycinfo-cinahl-et-autres-bases-disponibles-via-ebsco)   
    - [LiSSa](#lissa)   
-   - [CAIRN](#cairn)   
 - [Snowballing, ou enregistrer toutes les références citées par un article](#snowballing-ou-enregistrer-toutes-les-références-citées-par-un-article)   
    - [Avec Web of Science ou Scopus](#avec-web-of-science-ou-scopus)   
    - [Avec Citation Chaser](#avec-citation-chaser)   
@@ -44,12 +43,12 @@ Voici comment procéder dans différents outils de recherche bibliographique, à
 
 ### Scopus
 
-Dans la barre de menu grisée juste au-dessus de la liste de résultats :
+1. Dans le menu _All_  cochez le bouton _Select All_,
+2. Puis dans le menu _Export_  sélectionnez le format _BibTex_ et choisissez les informations à exporter.
 
-1. cochez la case _All_ >_Select All_,
-2. puis cliquez sur _RIS export_ et choisissez les informations à exporter.
+💡 N'oubliez pas le **résumé**, il n'est pas inclus par défaut.
 
-💡 **N'oubliez pas le résumé, il n'est pas inclus par défaut.**
+💡 Il est recommandé d'utiliser préférentiellement le format BibTeX au format RIS, car il conserve les **prénoms des auteurs**  sous leur forme complète. Dans le format RIS, les prénoms sont abrégés à leur initiale.
 
 3. Cliquez sur _Export_.
 4. Une boîte de dialogue s'affiche, choisissez _Ouvir avec_ > _Zotero_.
@@ -100,20 +99,6 @@ Sur la plateforme EBSCOhost , le fichier d'export est mis à disposition à un l
 💡 **Vous pouvez sélectionner consécutivement plusieurs pages de résultats avant de lancer l'export, afin d'enregistrer d'un seul coup plus de 100 références.**
 
 ![zotero_lissa](img/zotero_lissa.png)
-
-### CAIRN
-
-CAIRN n'autorise pas la sélection multiple sur une liste de résultats, ce qui rend plus laborieux l'import par lot dans Zotero.
-
-💡 **Il est nécessaire de disposer d'un compte personnel sur CAIRN pour pouvoir effectuer les étapes détaillées ci-dessous.**
-
-1. Depuis l'interface de votre compte personnel, créez une liste de lecture. C'est dans cette liste que vous regrouperez toutes les références que vous souhaitez importer dans Zotero.
-2. Sur une liste de résultats, cliquez pour chaque référence sur _Ajouter à une liste_, puis choisissez la liste créée à l'étape 1.
-3. Dans l'interface de votre compte personnel, affichez la liste de lecture regroupant toutes les références que vous avez sélectionnées.
-4. Cliquez sur _Exporter_ > _Zotero (.RIS)_ pour générer le fichier, importé automatiquement par Zotero comme pour LiSSa.
-
-![zotero_cairn](img/zotero_cairn.png)
-
 
 ## Snowballing, ou enregistrer toutes les références citées par un article
 
