@@ -1,6 +1,8 @@
 # Introduction à Zotero, votre assistant de recherche personnel
 
-Matériel de la formation "Introduction à Zotero, votre assistant de recherche personnel" à l'université de Bordeaux - 2020-... 
+Matériel de la formation "Introduction à Zotero, votre assistant de recherche personnel" à l'université de Bordeaux - 2020-2024
+
+🚧 **2024-09 : ces documents ne sont plus mis à jour. Le support du stage [Gérer facilement sa bibliographie avec Zotero](https://github.com/fflamerie/zotero_gerer_biblio) est en revanche à jour et prend en compte les nouveautés introduites dans Zotero 7.**
 
 ## Objectifs
 
